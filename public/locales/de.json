@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "lang": "de",
+    "dir": "ltr",
+    "name": "Deutsch"
+  },
+  "nav": {
+    "home": "Startseite",
+    "guide": "Umrah Führer",
+    "makkah": "Mekka",
+    "madinah": "Medina",
+    "seasonal": "Jahreszeit",
+    "practical": "Praktische Infos"
+  },
+  "home": {
+    "welcome_title": "Willkommen, Gast Allahs",
+    "welcome_subtitle": "Möge unser Herr deine Reise segnen und deine Absicht reinigen. Wir freuen uns, dich auf diesem wunderschönen Weg in die heiligen Stätten zu begleiten.",
+    "start_button": "Beginnen wir mit der Vorbereitung",
+    "tefekkur_title": "Absicht und Aufrichtigkeit",
+    "tefekkur_text": "Bevor wir uns auf den Weg machen, lasst uns in unser Herz hören und unsere Absicht erneuern. Wer sich nur für das Wohlgefallen Allahs auf den Weg macht, wird Sein wertvollster Gast. Alle Erschöpfung schwindet, und es bleibt nur noch tiefer Frieden."
+  },
+  "preparation": {
+    "title": "Ihram Vorbereitung",
+    "step1_title": "Körperliche und Spirituelle Reinigung",
+    "step1_desc": "Bevor man in den Ihram eintritt, ist es eine wunderschöne Sunnah, sich von körperlichen und geistigen Unreinheiten zu säubern, genau wie beim Gebet. Wie Wasser den Körper reinigt, so wäscht die Reue das Herz.",
+    "step1_bullets": [
+      "Es ist Sunnah, die rituelle Waschung (Ghusl) durchzuführen.",
+      "Nägel schneiden und die allgemeine Körperpflege durchführen.",
+      "Sich parfümieren (Für Männer - darf direkt vor dem Eintritt in den Ihram auf den Körper aufgetragen werden, nicht auf die Kleidung)."
+    ],
+    "mark_complete": "Alhamdulillah, ich habe diesen Schritt abgeschlossen"
+  },
+  "duas": {
+    "ihram_niyyah": {
+      "title": "Die Absicht für den Ihram (Niyyah)",
+      "arabic": "لَبَّيْكَ اللَّهُمَّ عُمْرَةً",
+      "transliteration": "Lebbeik Allahümme 'umraten",
+      "translation": "O Allah, ich antworte Deinem Ruf, um die Umrah zu vollziehen."
+    },
+    "tawaf_start": {
+      "title": "Absicht und Beginn (Schwarzer Stein)",
+      "arabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ",
+      "transliteration": "Bismillahi Allahu Akber",
+      "translation": "Im Namen Allahs, Allah ist am größten."
+    },
+    "rabbana_atina": {
+      "title": "Bittgebet zwischen der Jemenitischen Ecke und dem Schwarzen Stein",
+      "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+      "transliteration": "Rabbena atina fid-dunya hasanaten wa fil-akhirati hasanaten wa qina 'adhaban-nar",
+      "translation": "Unser Herr! Gib uns im Diesseits Gutes und im Jenseits Gutes und bewahre uns vor der Strafe des Höllenfeuers."
+    }
+  },
+  "tawaf": {
+    "title": "Tawaf",
+    "counter_title": "Tawaf Zähler",
+    "round_info": "Runde {current} von 7",
+    "complete": "Alhamdulillah, du hast den Tawaf erfolgreich abgeschlossen.",
+    "add_round": "Eine Runde hinzufügen",
+    "reset": "Zähler zurücksetzen",
+    "instruction": "Das siebenmalige Umrunden der Kaaba, beginnend auf der Höhe des Schwarzen Steins, ergibt einen Tawaf. Jede Umrundung nennt man 'Schawt'.",
+    "confirm_reset": "Möchtest du den Tawaf-Zähler wirklich liebevoll auf null setzen?"
+  },
+  "sai": {
+    "title": "Sa'i",
+    "counter_title": "Sa'i Zähler",
+    "complete": "Alhamdulillah, du hast die Sa'i-Verehrung wunderschön vollendet.",
+    "add_round": "Einen Lauf hinzufügen",
+    "reset": "Zähler zurücksetzen",
+    "instruction": "Beginnend beim Hügel Safa und hinüber nach Marwa zu gehen, zählt als 1 Lauf. Wir werden diesen Weg insgesamt 7 Mal zurücklegen.",
+    "confirm_reset": "Bist du dir sicher, dass du den Sa'i-Zähler zurücksetzen möchtest?",
+    "dir_safa_marwa": "Safa ➔ Marwa",
+    "dir_marwa_safa": "Marwa ➔ Safa",
+    "dir_completed": "Abgeschlossen"
+  },
+  "practical": {
+    "title": "Praktische Informationen",
+    "haircut_title": "Haarschnitt & Ende des Ihram",
+    "haircut_desc": "Als letzter Schritt der Umrah müssen die Haare gekürzt oder rasiert werden. Am Ausgang des Marwa-Tors findest du zuverlässige Friseure. Du kannst dich aber auch bequem in deinem Hotel selbst rasieren.",
+    "haircut_map": "Friseure auf der Karte ansehen",
+    "dining_title": "Essen & Trinken Führer",
+    "dining_desc": "Rund um Masjid al-Haram, besonders im Abraj Al Bait (Uhrenturm) und Jabal Omar, gibt es saubere und sichere Speisebereiche.",
+    "dining_map": "Speisebereiche auf der Karte ansehen"
+  },
+  "common": {
+    "copy": "Kopieren",
+    "copied": "Kopiert!"
+  },
+  "aria": {
+    "main_nav": "Hauptmenü",
+    "nav_home": "Startseite",
+    "nav_guide": "Führer",
+    "nav_tawaf": "Tawaf",
+    "nav_sai": "Sa'i",
+    "nav_practical": "Praktische Infos",
+    "font_scale": "Schriftgröße ändern",
+    "lang_switch": "Sprachauswahl",
+    "start_umrah": "Umrah Beginnen",
+    "go_back": "Zurückgehen"
+  }
+}

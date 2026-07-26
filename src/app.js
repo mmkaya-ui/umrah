@@ -73,6 +73,11 @@ const HomePage = {
           <select id="lang-switch" class="btn btn-gold" style="padding: 4px 8px; font-size: 14px; width: auto;" aria-label="${i18n.t('aria.lang_switch')}">
             <option value="tr" ${i18n.currentLang === 'tr' ? 'selected' : ''}>TR</option>
             <option value="en" ${i18n.currentLang === 'en' ? 'selected' : ''}>EN</option>
+            <option value="ar" ${i18n.currentLang === 'ar' ? 'selected' : ''}>AR</option>
+            <option value="de" ${i18n.currentLang === 'de' ? 'selected' : ''}>DE</option>
+            <option value="es" ${i18n.currentLang === 'es' ? 'selected' : ''}>ES</option>
+            <option value="ru" ${i18n.currentLang === 'ru' ? 'selected' : ''}>RU</option>
+            <option value="ko" ${i18n.currentLang === 'ko' ? 'selected' : ''}>KO</option>
           </select>
         </div>
       </header>

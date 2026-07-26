@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "lang": "es",
+    "dir": "ltr",
+    "name": "Español"
+  },
+  "nav": {
+    "home": "Inicio",
+    "guide": "Guía de Umrah",
+    "makkah": "La Meca",
+    "madinah": "Medina",
+    "seasonal": "Temporada",
+    "practical": "Info Práctica"
+  },
+  "home": {
+    "welcome_title": "Bienvenido, Invitado de Allah",
+    "welcome_subtitle": "Que nuestro Señor bendiga tu viaje y purifique tu intención. Nos alegra acompañarte en este hermoso camino hacia los lugares sagrados.",
+    "start_button": "Comencemos con la Preparación",
+    "tefekkur_title": "Intención y Sinceridad",
+    "tefekkur_text": "Antes de partir, escuchemos nuestro corazón y renovemos nuestra intención. Quien emprende el camino buscando solo la complacencia de Allah, se convierte en Su invitado más preciado. Todo el cansancio desaparece y solo queda una profunda paz."
+  },
+  "preparation": {
+    "title": "Preparación para el Ihram",
+    "step1_title": "Limpieza Física y Espiritual",
+    "step1_desc": "Antes de entrar en estado de Ihram, es una hermosa Sunnah limpiarse de impurezas físicas y espirituales, tal como al realizar la oración. Así como el agua limpia el cuerpo, el arrepentimiento lava el corazón.",
+    "step1_bullets": [
+      "Es Sunnah realizar el lavado ritual (Ghusl).",
+      "Cortarse las uñas y realizar el aseo personal general.",
+      "Perfumarse (Para los hombres - se puede aplicar en el cuerpo justo antes del Ihram, pero no en la ropa)."
+    ],
+    "mark_complete": "Alhamdulillah, he completado este paso"
+  },
+  "duas": {
+    "ihram_niyyah": {
+      "title": "La Intención para el Ihram",
+      "arabic": "لَبَّيْكَ اللَّهُمَّ عُمْرَةً",
+      "transliteration": "Labbaik Allahumma 'umratan",
+      "translation": "Oh Allah, respondo a Tu llamado para realizar la Umrah."
+    },
+    "tawaf_start": {
+      "title": "Intención y Comienzo (Piedra Negra)",
+      "arabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ",
+      "transliteration": "Bismillahi Allahu Akbar",
+      "translation": "En el nombre de Allah, Allah es el más grande."
+    },
+    "rabbana_atina": {
+      "title": "Súplica entre la Esquina Yemení y la Piedra Negra",
+      "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+      "transliteration": "Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan wa qina 'adhaban-nar",
+      "translation": "¡Señor nuestro! Danos lo bueno en este mundo y lo bueno en el Más Allá, y sálvanos del castigo del Fuego."
+    }
+  },
+  "tawaf": {
+    "title": "Tawaf",
+    "counter_title": "Contador de Tawaf",
+    "round_info": "Vuelta {current} de 7",
+    "complete": "Alhamdulillah, has completado el Tawaf exitosamente.",
+    "add_round": "Añadir una vuelta",
+    "reset": "Reiniciar Contador",
+    "instruction": "Dar 7 vueltas a la Kaaba, comenzando desde la Piedra Negra, completa un Tawaf. Cada vuelta se llama 'Shawt'.",
+    "confirm_reset": "¿Estás seguro de que deseas reiniciar tu contador de Tawaf?"
+  },
+  "sai": {
+    "title": "Sa'i",
+    "counter_title": "Contador de Sa'i",
+    "complete": "Alhamdulillah, has completado maravillosamente el rito de Sa'i.",
+    "add_round": "Añadir un recorrido",
+    "reset": "Reiniciar Contador",
+    "instruction": "Comenzar en el Monte Safa y caminar hacia Marwa cuenta como 1. Caminaremos entre ellos 7 veces en total.",
+    "confirm_reset": "¿Estás seguro de que deseas reiniciar el contador de Sa'i?",
+    "dir_safa_marwa": "Safa ➔ Marwa",
+    "dir_marwa_safa": "Marwa ➔ Safa",
+    "dir_completed": "Completado"
+  },
+  "practical": {
+    "title": "Información Práctica",
+    "haircut_title": "Corte de Pelo y Fin del Ihram",
+    "haircut_desc": "Como último paso de la Umrah, se debe acortar o afeitar el cabello. A la salida de la puerta de Marwa encontrarás barberos confiables. También puedes afeitarte tú mismo en el hotel.",
+    "haircut_map": "Ver Barberos en el Mapa",
+    "dining_title": "Guía de Restaurantes",
+    "dining_desc": "Alrededor de Masjid al-Haram, especialmente en Abraj Al Bait y Jabal Omar, hay áreas de comida limpias y seguras.",
+    "dining_map": "Ver Zonas de Comida en el Mapa"
+  },
+  "common": {
+    "copy": "Copiar",
+    "copied": "¡Copiado!"
+  },
+  "aria": {
+    "main_nav": "Menú Principal",
+    "nav_home": "Inicio",
+    "nav_guide": "Guía",
+    "nav_tawaf": "Tawaf",
+    "nav_sai": "Sa'i",
+    "nav_practical": "Info Práctica",
+    "font_scale": "Cambiar tamaño de fuente",
+    "lang_switch": "Selección de Idioma",
+    "start_umrah": "Comenzar Umrah",
+    "go_back": "Regresar"
+  }
+}
