@@ -28,7 +28,34 @@
       "Tırnakları kesmek, genel vücut temizliğini yapmak.",
       "Güzel koku sürmek (Erkekler için - ihrama girmeden hemen önce vücuda sürülebilir, elbiseye sürülmez)."
     ],
-    "mark_complete": "Bu adımı tamamladım elhamdülillah"
+    "mark_complete": "Bu adımı tamamladım elhamdülillah",
+    "step2_title": "İhram Kıyafetlerini Giymek",
+    "step2_desc": "Temizliğimizi yaptıktan sonra niyet öncesi ihram kıyafetlerimizi giyeriz.",
+    "step2_bullets": [
+      "Erkekler için: İç çamaşırı dâhil her türlü dikişli elbiseyi çıkarıp Rida ve İzar denilen iki parça temiz beyaz havluya bürünmek.",
+      "Kadınlar için: Özel bir ihram kıyafeti yoktur, günlük temiz ve tesettüre uygun elbiseleri ihram sayılır. Yüzler örtülmez."
+    ],
+    "step3_title": "İhram Namazı (Sünnet)",
+    "step3_desc": "Kıyafetler giyildikten sonra (kerahet vakti değilse) 2 rekat ihram namazı kılınır.",
+    "step3_bullets": [
+      "Birinci rekatta Fatiha'dan sonra Kafirun Suresi okunması sünnettir.",
+      "İkinci rekatta Fatiha'dan sonra İhlas Suresi okunması sünnettir."
+    ],
+    "step4_title": "Niyet ve Telbiye",
+    "step4_desc": "Namazdan sonra veya araca binildiğinde umre için niyet edilir ve telbiye getirilir. İşte bu andan itibaren ihram yasakları başlar.",
+    "step4_bullets": [
+      "Niyet: 'Allah'ım, senin rızan için umre yapmak istiyorum, onu bana kolaylaştır ve benden kabul eyle.'",
+      "Telbiye Duası: 'Lebbeyk Allâhümme lebbeyk, lebbeyke lâ şerîke leke lebbeyk...' (Erkekler yüksek sesle, kadınlar kendi duyacakları sesle)"
+    ],
+    "step5_title": "İhram Yasaklarına Dikkat Etmek",
+    "step5_desc": "İhrama girdikten sonra umre bitene (saç kesilene) kadar dikkat edilmesi gereken yasaklar başlar.",
+    "step5_bullets": [
+      "Saç, sakal veya tırnak kesmemek, vücuttan kıl koparmamak.",
+      "Güzel koku sürmemek, kokulu sabun kullanmamak.",
+      "Harem bölgesinin (Mekke'nin) bitkilerini koparmamak.",
+      "Tartışmamak, kötü söz söylememek, öfkelenmemek.",
+      "(Erkekler için) Başa takke takmamak, dikişli iç çamaşırı veya çorap giymemek."
+    ]
   },
   "duas": {
     "ihram_niyyah": {

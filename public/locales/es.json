@@ -28,7 +28,34 @@
       "Cortarse las uñas y realizar el aseo personal general.",
       "Perfumarse (Para los hombres - se puede aplicar en el cuerpo justo antes del Ihram, pero no en la ropa)."
     ],
-    "mark_complete": "Alhamdulillah, he completado este paso"
+    "mark_complete": "Alhamdulillah, he completado este paso",
+    "step2_title": "Vestimenta de Ihram",
+    "step2_desc": "Después de la purificación, nos ponemos las prendas de Ihram.",
+    "step2_bullets": [
+      "Hombres: Quitarse toda la ropa cosida (incluida la ropa interior) y envolverse en dos telas blancas sin coser.",
+      "Mujeres: Ropa normal, limpia y modesta. El rostro queda descubierto."
+    ],
+    "step3_title": "Oración del Ihram (Sunnah)",
+    "step3_desc": "Después de vestirse, se rezan 2 rak'ahs (si no es tiempo prohibido).",
+    "step3_bullets": [
+      "Se recomienda recitar Surah Al-Kafirun en el primer rak'ah.",
+      "Se recomienda recitar Surah Al-Ikhlas en el segundo rak'ah."
+    ],
+    "step4_title": "Intención (Niyyah) y Talbiyah",
+    "step4_desc": "Luego se declara la intención y la Talbiyah. Las restricciones comienzan aquí.",
+    "step4_bullets": [
+      "Intención: 'Oh Allah, tengo la intención de hacer la Umrah, facilítamela y acéptala.'",
+      "Talbiyah: 'Labbayk Allahumma labbayk...' (Hombres en voz alta, mujeres en voz baja)"
+    ],
+    "step5_title": "Restricciones del Ihram",
+    "step5_desc": "Evite estas acciones hasta cortarse el pelo al final de la Umrah.",
+    "step5_bullets": [
+      "No cortar pelo ni uñas.",
+      "No usar perfume ni jabones aromáticos.",
+      "No arrancar plantas en el Haram.",
+      "No discutir ni usar malas palabras.",
+      "(Hombres) No cubrirse la cabeza ni usar ropa cosida."
+    ]
   },
   "duas": {
     "ihram_niyyah": {

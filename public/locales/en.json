@@ -28,7 +28,34 @@
       "Trimming nails and performing general body purification.",
       "Applying pleasant perfume (For men - can be applied to the body right before entering Ihram, but not on the garments)."
     ],
-    "mark_complete": "Alhamdulillah, I have completed this step"
+    "mark_complete": "Alhamdulillah, I have completed this step",
+    "step2_title": "Wearing the Ihram Garments",
+    "step2_desc": "After purification and before the intention (niyyah), we wear the ihram garments.",
+    "step2_bullets": [
+      "For Men: Remove all stitched clothing (including underwear) and wrap yourself in two pieces of clean white unstitched cloth (Rida and Izar).",
+      "For Women: There is no specific ihram clothing. Ordinary, clean, and modest clothing serves as ihram. The face and hands remain uncovered."
+    ],
+    "step3_title": "Ihram Prayer (Sunnah)",
+    "step3_desc": "After wearing the garments (if it's not a prohibited time), perform a 2-rak'ah Ihram prayer.",
+    "step3_bullets": [
+      "It is sunnah to recite Surah Al-Kafirun after Al-Fatihah in the first rak'ah.",
+      "It is sunnah to recite Surah Al-Ikhlas after Al-Fatihah in the second rak'ah."
+    ],
+    "step4_title": "Intention (Niyyah) & Talbiyah",
+    "step4_desc": "After the prayer or upon boarding your vehicle, make the intention and recite the Talbiyah. Ihram restrictions begin at this exact moment.",
+    "step4_bullets": [
+      "Niyyah: 'O Allah, I intend to perform Umrah, so make it easy for me and accept it from me.'",
+      "Talbiyah: 'Labbayk Allahumma labbayk, labbayka la sharika laka labbayk...' (Men say it loudly, women quietly)"
+    ],
+    "step5_title": "Observing Ihram Restrictions",
+    "step5_desc": "Once in Ihram, these restrictions apply until you cut your hair at the end of Umrah.",
+    "step5_bullets": [
+      "Do not cut hair, beard, nails, or pluck body hair.",
+      "Do not apply perfumes or use scented soaps.",
+      "Do not pluck or cut the plants of the Haram (Makkah).",
+      "Do not argue, use bad language, or lose your temper.",
+      "(For Men) Do not cover the head, or wear stitched clothes, underwear, or socks."
+    ]
   },
   "duas": {
     "ihram_niyyah": {

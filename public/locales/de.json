@@ -28,7 +28,34 @@
       "Nägel schneiden und die allgemeine Körperpflege durchführen.",
       "Sich parfümieren (Für Männer - darf direkt vor dem Eintritt in den Ihram auf den Körper aufgetragen werden, nicht auf die Kleidung)."
     ],
-    "mark_complete": "Alhamdulillah, ich habe diesen Schritt abgeschlossen"
+    "mark_complete": "Alhamdulillah, ich habe diesen Schritt abgeschlossen",
+    "step2_title": "Tragen der Ihram-Kleidung",
+    "step2_desc": "Nach der Reinigung und vor der Absicht (Niyyah) legen wir die Ihram-Gewänder an.",
+    "step2_bullets": [
+      "Für Männer: Alle genähten Kleidungsstücke ausziehen (inkl. Unterwäsche) und zwei ungenähte weiße Tücher (Rida und Izar) anlegen.",
+      "Für Frauen: Normale, saubere und bedeckende Kleidung dient als Ihram. Das Gesicht bleibt unbedeckt."
+    ],
+    "step3_title": "Ihram-Gebet (Sunnah)",
+    "step3_desc": "Nach dem Anlegen der Kleidung werden 2 Rak'ah gebetet (außer zu verbotenen Zeiten).",
+    "step3_bullets": [
+      "Im ersten Rak'ah nach Al-Fatihah die Sure Al-Kafirun rezitieren.",
+      "Im zweiten Rak'ah nach Al-Fatihah die Sure Al-Ikhlas rezitieren."
+    ],
+    "step4_title": "Absicht (Niyyah) & Talbiyah",
+    "step4_desc": "Nach dem Gebet wird die Absicht gefasst und die Talbiyah gesprochen. Ab jetzt gelten die Ihram-Verbote.",
+    "step4_bullets": [
+      "Niyyah: 'O Allah, ich beabsichtige die Umrah zu vollziehen, mache sie mir leicht und nimm sie von mir an.'",
+      "Talbiyah: 'Labbayk Allahumma labbayk...' (Männer laut, Frauen leise)"
+    ],
+    "step5_title": "Ihram-Verbote beachten",
+    "step5_desc": "Diese Verbote gelten, bis am Ende der Umrah die Haare geschnitten werden.",
+    "step5_bullets": [
+      "Keine Haare, Nägel schneiden oder Körperhaare zupfen.",
+      "Kein Parfüm oder duftende Seifen verwenden.",
+      "Keine Pflanzen des Haram (Mekka) pflücken.",
+      "Nicht streiten, fluchen oder wütend werden.",
+      "(Für Männer) Den Kopf nicht bedecken, keine genähte Kleidung oder Socken tragen."
+    ]
   },
   "duas": {
     "ihram_niyyah": {

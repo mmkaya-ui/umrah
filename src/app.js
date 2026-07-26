@@ -115,7 +115,46 @@ const HomePage = {
 
 const PreparationPage = {
   render: () => {
-    const isCompleted = Storage.getProgress('step_prep_1');
+    let stepsHTML = '';
+    for (let i = 1; i <= 5; i++) {
+      const isCompleted = Storage.getProgress(`step_prep_${i}`);
+      stepsHTML += `
+        <div class="card ${isCompleted ? 'completed-card' : ''}" id="card_step_prep_${i}">
+          <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+            <div>
+              <div class="badge badge-step">${i}</div>
+              <h2 class="font-semibold text-xl" style="margin-bottom: var(--spacing-2);" data-i18n="preparation.step${i}_title"></h2>
+            </div>
+            <label class="custom-checkbox" aria-label="${i18n.t('preparation.mark_complete')}">
+              <input type="checkbox" id="check_step_prep_${i}" ${isCompleted ? 'checked' : ''}>
+              <span class="checkmark"></span>
+            </label>
+          </div>
+          
+          <p class="text-sm text-muted" style="margin-bottom: var(--spacing-3);" data-i18n="preparation.step${i}_desc"></p>
+          
+          <ul style="list-style: disc; padding-left: 20px; color: var(--color-text-main); margin-bottom: var(--spacing-4);" class="text-sm">
+            ${[0,1,2,3,4].map(idx => {
+              const key = `preparation.step${i}_bullets.${idx}`;
+              const text = i18n.t(key);
+              return text !== key ? `<li data-i18n="${key}"></li>` : '';
+            }).join('')}
+          </ul>
+      `;
+
+      if (i === 4) {
+        stepsHTML += `
+          <div class="dua-card" role="region" aria-label="${i18n.t('duas.ihram_niyyah.title')}">
+            <div class="arabic" data-i18n="duas.ihram_niyyah.arabic"></div>
+            <div class="transliteration" data-i18n="duas.ihram_niyyah.transliteration"></div>
+            <div class="meaning" data-i18n="duas.ihram_niyyah.translation"></div>
+          </div>
+        `;
+      }
+      
+      stepsHTML += `</div>`;
+    }
+
     return `
     <div class="page-container">
       <header class="app-header" role="banner">
@@ -126,33 +165,8 @@ const PreparationPage = {
         <div style="width:24px;"></div>
       </header>
       
-      <main style="padding-top: var(--spacing-4);" role="main">
-        <div class="card ${isCompleted ? 'completed-card' : ''}" id="card_step_prep_1">
-          <div style="display: flex; justify-content: space-between; align-items: flex-start;">
-            <div>
-              <div class="badge badge-step">1</div>
-              <h2 class="font-semibold text-xl" style="margin-bottom: var(--spacing-2);" data-i18n="preparation.step1_title"></h2>
-            </div>
-            <label class="custom-checkbox" aria-label="${i18n.t('preparation.mark_complete')}">
-              <input type="checkbox" id="check_step_prep_1" ${isCompleted ? 'checked' : ''}>
-              <span class="checkmark"></span>
-            </label>
-          </div>
-          
-          <p class="text-sm text-muted" style="margin-bottom: var(--spacing-3);" data-i18n="preparation.step1_desc"></p>
-          
-          <ul style="list-style: disc; padding-left: 20px; color: var(--color-text-main); margin-bottom: var(--spacing-4);" class="text-sm">
-            <li data-i18n="preparation.step1_bullets.0"></li>
-            <li data-i18n="preparation.step1_bullets.1"></li>
-            <li data-i18n="preparation.step1_bullets.2"></li>
-          </ul>
-
-          <div class="dua-card" role="region" aria-label="${i18n.t('duas.ihram_niyyah.title')}">
-            <div class="arabic" data-i18n="duas.ihram_niyyah.arabic"></div>
-            <div class="transliteration" data-i18n="duas.ihram_niyyah.transliteration"></div>
-            <div class="meaning" data-i18n="duas.ihram_niyyah.translation"></div>
-          </div>
-        </div>
+      <main style="padding-top: var(--spacing-4); padding-bottom: 80px;" role="main">
+        ${stepsHTML}
       </main>
     </div>
   `;
