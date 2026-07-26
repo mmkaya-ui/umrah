@@ -168,12 +168,12 @@ const PreparationPage = {
           <div style="background: rgba(201, 168, 76, 0.08); border: 1px dashed var(--color-gold); border-radius: var(--radius-lg); padding: var(--spacing-4); margin-bottom: var(--spacing-4);">
             <div style="color: var(--color-gold); font-weight: 700; display: flex; align-items: center; gap: 8px; margin-bottom: 10px; font-size: 0.95rem;">
               <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-              <span>İhramın Düşmemesi ve Rahatlık İçin Püf Noktaları</span>
+              <span data-i18n="preparation.tips_title"></span>
             </div>
             <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.85rem; color: var(--color-text-main); display: flex; flex-direction: column; gap: 8px;">
-              <li><strong>📌 Üst Kısmı Kemer Gibi Kıvırın:</strong> İzar'ı belinizde bağladıktan sonra üst kısmını dışarıya doğru 2-3 defa rulo yaparak kıvırın. Bu işlem havluyu kilitler ve kaymasını engeller.</li>
-              <li><strong>📌 İhram Kemeri Kullanın:</strong> Cırt cırtlı ve cepli ihram kemerleri hem para/telefon taşımanızı sağlar hem de İzar'ı ekstra emniyete alır.</li>
-              <li><strong>📌 Iztıba (Sağ Omuz):</strong> Sadece Kabe tavafı yaparken (7 şavt) sağ omuz açık bırakılır. Tavaf bittiğinde namaz kılarken ve Sa'y alanında sağ omuz kapatılır.</li>
+              <li data-i18n="preparation.tip_1"></li>
+              <li data-i18n="preparation.tip_2"></li>
+              <li data-i18n="preparation.tip_3"></li>
             </ul>
           </div>
         `;

@@ -57,7 +57,11 @@
       "(Erkekler için) Başa takke takmamak, dikişli iç çamaşırı veya çorap giymemek."
     ],
     "tefekkur_title": "İhramın Sırrı ve Tefekkürü",
-    "tefekkur_text": "İhram, dünyevi makam, mevkî ve statülerden sıyrılarak Allah'ın huzurunda salt bir kul olduğumuzu idrak etmektir. Tıpkı mahşer gününde kefenle dirilip Rabbimizin huzurunda eşit olarak toplanacağımız gibi, burada da herkes aynı beyaz örtüye bürünür. 'Ameller niyetlere göredir' (Buhari) sırrınca, burada kalbi dünyadan koparıp sadece O'nun rızasına bağlarız. İhrama girmek bir nevi ölmeden önce ölmektir; gururu, kibri ve dünyalık hırsları o beyaz bezin içinde eritmektir."
+    "tefekkur_text": "İhram, dünyevi makam, mevkî ve statülerden sıyrılarak Allah'ın huzurunda salt bir kul olduğumuzu idrak etmektir. Tıpkı mahşer gününde kefenle dirilip Rabbimizin huzurunda eşit olarak toplanacağımız gibi, burada da herkes aynı beyaz örtüye bürünür. 'Ameller niyetlere göredir' (Buhari) sırrınca, burada kalbi dünyadan koparıp sadece O'nun rızasına bağlarız. İhrama girmek bir nevi ölmeden önce ölmektir; gururu, kibri ve dünyalık hırsları o beyaz bezin içinde eritmektir.",
+    "tips_title": "İhramın Düşmemesi ve Rahatlık İçin Püf Noktaları",
+    "tip_1": "📌 Üst Kısmı Kemer Gibi Kıvırın: İzar'ı belinizde bağladıktan sonra üst kısmını dışarıya doğru 2-3 defa rulo yaparak kıvırın. Bu işlem havluyu kilitler ve kaymasını engeller.",
+    "tip_2": "📌 İhram Kemeri Kullanın: Cırt cırtlı ve cepli ihram kemerleri hem para/telefon taşımanızı sağlar hem de İzar'ı ekstra emniyete alır.",
+    "tip_3": "📌 Iztıba (Sağ Omuz): Sadece Kabe tavafı yaparken (7 şavt) sağ omuz açık bırakılır. Tavaf bittiğinde namaz kılarken ve Sa'y alanında sağ omuz kapatılır."
   },
   "duas": {
     "ihram_niyyah": {
@@ -89,7 +93,14 @@
     "instruction": "Hacer-ül Esved hizasından başlayarak Kabe'nin etrafında 7 kez dönmek bir tavaftır. Her dönüşe 'şavt' denir.",
     "confirm_reset": "Tavaf sayacını sıfırlamak istediğinize emin misiniz?",
     "tefekkur_title": "Tavafın Sırrı ve Tefekkürü",
-    "tefekkur_text": "Tavaf, kainatın zikrine katılmaktır. Varlık aleminin merkezinde nasıl çekirdek etrafında dönen elektronlar, güneş etrafında dönen gezegenler varsa, mümin de inancının ve varlığının merkezi olan Kabe'nin etrafında adeta pervaneye döner. Meleklerin gökteki Beytül Ma'mur etrafındaki tavafına yeryüzünde biz eşlik ederiz. Peygamber Efendimiz (s.a.v) şöyle buyurur: 'Kabe'yi tavaf eden, anasından doğduğu günkü gibi günahsız olur.' Hacer-ül Esved'den başlarken, Rabbimize verdiğimiz kulluk sözünü (misak) yenileriz."
+    "tefekkur_text": "Tavaf, kainatın zikrine katılmaktır. Varlık aleminin merkezinde nasıl çekirdek etrafında dönen elektronlar, güneş etrafında dönen gezegenler varsa, mümin de inancının ve varlığının merkezi olan Kabe'nin etrafında adeta pervaneye döner. Meleklerin gökteki Beytül Ma'mur etrafındaki tavafına yeryüzünde biz eşlik ederiz. Peygamber Efendimiz (s.a.v) şöyle buyurur: 'Kabe'yi tavaf eden, anasından doğduğu günkü gibi günahsız olur.' Hacer-ül Esved'den başlarken, Rabbimize verdiğimiz kulluk sözünü (misak) yenileriz.",
+    "complete_title": "Elhamdülillah, Tavafınız Tamamlandı!",
+    "complete_subtitle": "Tavafınız bittiğinde sırasıyla şu adımları takip ediniz:",
+    "post_step_1": "1. Sağ Omzunuzu Kapatın: Tavafta açılan sağ omzu (Iztıba) tekrar ihram bezinizle örtün.",
+    "post_step_2": "2. 2 Rekat Tavaf Namazı Kılın: Makam-ı İbrahim arkasında veya Harem'in uygun bir yerinde 2 rekat namaz kılın (1. rekat Kafirun, 2. rekat İhlas).",
+    "post_step_3": "3. Doyasıya Zemzem İçin: İçme alanında kıbleye dönüp ayakta Zemzem içiniz, başınıza sürünüz ve dua ediniz.",
+    "post_step_4": "4. Sa'y İbadetine Geçin: Safa tepesine doğru yönelerek Sa'y alanına ilerleyin.",
+    "btn_start_sai": "Sa'y İbadetine Başla ➔"
   },
   "tawaf_map": {
     "title": "Kabe Tavaf Krokisi",
@@ -111,7 +122,13 @@
     "dir_marwa_safa": "Merve ➔ Safa",
     "dir_completed": "Bitti / Completed",
     "tefekkur_title": "Sa'y'ın Sırrı ve Tefekkürü",
-    "tefekkur_text": "Sa'y, ıssız bir çölde bir damla su (rahmet) arayan Hz. Hacer validemizin çaresizlik içindeki muazzam tevekkülünün yürüyüşüdür. Safa ile Merve arasında koştururken, aslında onun telaşına, yavrusu İsmail için çırpınışına ve en önemlisi Allah'a olan mutlak güvenine ortak oluruz. Zira biliriz ki, biz elimizden geleni (Sa'y) yaptıktan sonra, Zemzem'i (rahmeti) fışkırtacak olan sadece ve sadece Allah'tır. 'Şüphesiz Safa ile Merve Allah'ın nişanelerindendir...' (Bakara, 158)."
+    "tefekkur_text": "Sa'y, ıssız bir çölde bir damla su (rahmet) arayan Hz. Hacer validemizin çaresizlik içindeki muazzam tevekkülünün yürüyüşüdür. Safa ile Merve arasında koştururken, aslında onun telaşına, yavrusu İsmail için çırpınışına ve en önemlisi Allah'a olan mutlak güvenine ortak oluruz. Zira biliriz ki, biz elimizden geleni (Sa'y) yaptıktan sonra, Zemzem'i (rahmeti) fışkırtacak olan sadece ve sadece Allah'tır. 'Şüphesiz Safa ile Merve Allah'ın nişanelerindendir...' (Bakara, 158).",
+    "complete_title": "Elhamdülillah, Sa'y ve Umreniz Tamamlandı!",
+    "complete_subtitle": "7. şavt Merve tepesinde biter. İhramdan çıkmak için sırasıyla şu adımları takip ediniz:",
+    "post_step_1": "1. Merve Tepesinde Dua Edin: Merve tepesinde kıbleye dönüp hamd edin ve gönlünüzden geçen duaları yapın.",
+    "post_step_2": "2. Tıraş Olun (Saç Kesimi): Erkekler saçlarını tamamen kazıtır veya kısaltır. Kadınlar saç uçlarından parmak ucu kadar (1-2 cm) keserler.",
+    "post_step_3": "3. İhramdan Çıkış: Saç kesildikten sonra ihram yasakları kalkar, günlük elbiselerinizi giyebilirsiniz. Umreniz mübarek olsun!",
+    "btn_explore_ziyarat": "Kutsal Ziyaret Yerlerini Keşfet 📍"
   },
   "practical": {
     "title": "Pratik Bilgiler",

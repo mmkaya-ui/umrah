@@ -57,7 +57,11 @@
       "(Für Männer) Den Kopf nicht bedecken, keine genähte Kleidung oder Socken tragen."
     ],
     "tefekkur_title": "Das Geheimnis und die Reflexion des Ihram",
-    "tefekkur_text": "Ihram bedeutet, weltliche Titel, Reichtum und Status abzulegen, um unsere reine Dienerschaft vor Allah zu erkennen. So wie wir am Tag des Jüngsten Gerichts in Leichentüchern auferstehen und gleichwertig vor unserem Herrn versammelt werden, hüllen sich hier alle in dasselbe weiße Tuch. Durch das Geheimnis 'Die Taten werden nach den Absichten beurteilt' (Bukhari) lösen wir unsere Herzen von der Welt und binden sie einzig an Sein Wohlgefallen."
+    "tefekkur_text": "Ihram bedeutet, weltliche Titel, Reichtum und Status abzulegen, um unsere reine Dienerschaft vor Allah zu erkennen. So wie wir am Tag des Jüngsten Gerichts in Leichentüchern auferstehen und gleichwertig vor unserem Herrn versammelt werden, hüllen sich hier alle in dasselbe weiße Tuch. Durch das Geheimnis 'Die Taten werden nach den Absichten beurteilt' (Bukhari) lösen wir unsere Herzen von der Welt und binden sie einzig an Sein Wohlgefallen.",
+    "tips_title": "Praktische Tipps für den sicheren Halt des Ihram",
+    "tip_1": "📌 Oberkante einrollen: Rollen Sie die Oberkante des Izar 2-3 Mal nach außen wie einen Gürtel ein.",
+    "tip_2": "📌 Ihram-Gürtel nutzen: Ihram-Gürtel mit Reißverschluss sichern das Tuch und bieten Platz für Wertsachen.",
+    "tip_3": "📌 Iztiba-Regel: Die rechte Schulter NUR während des Tawaf entblößen. Beim Gebet und Sa'y bedecken."
   },
   "duas": {
     "ihram_niyyah": {
@@ -89,7 +93,14 @@
     "instruction": "Das siebenmalige Umrunden der Kaaba, beginnend auf der Höhe des Schwarzen Steins, ergibt einen Tawaf. Jede Umrundung nennt man 'Schawt'.",
     "confirm_reset": "Möchtest du den Tawaf-Zähler wirklich liebevoll auf null setzen?",
     "tefekkur_title": "Das Geheimnis und die Reflexion des Tawaf",
-    "tefekkur_text": "Tawaf bedeutet, sich dem kosmischen Dhikr (Gedenken) des Universums anzuschließen. So wie Elektronen um einen Kern und Planeten um die Sonne kreisen, umkreist der Gläubige die Kaaba wie eine Motte, die zum Zentrum ihrer Existenz und ihres Glaubens gezogen wird. Wir begleiten die Engel, die Bayt al-Ma'mur in den Himmeln umkreisen. Wir erneuern unseren Bund der Dienerschaft mit unserem Herrn, beginnend beim Schwarzen Stein."
+    "tefekkur_text": "Tawaf bedeutet, sich dem kosmischen Dhikr (Gedenken) des Universums anzuschließen. So wie Elektronen um einen Kern und Planeten um die Sonne kreisen, umkreist der Gläubige die Kaaba wie eine Motte, die zum Zentrum ihrer Existenz und ihres Glaubens gezogen wird. Wir begleiten die Engel, die Bayt al-Ma'mur in den Himmeln umkreisen. Wir erneuern unseren Bund der Dienerschaft mit unserem Herrn, beginnend beim Schwarzen Stein.",
+    "complete_title": "Alhamdulillah, Ihr Tawaf ist abgeschlossen!",
+    "complete_subtitle": "Befolgen Sie nach dem Tawaf diese Schritte in Reihenfolge:",
+    "post_step_1": "1. Rechten Schulter bedecken: Bedecken Sie Ihre rechte Schulter wieder mit dem Ihram-Tuch.",
+    "post_step_2": "2. 2 Rak'ah Tawaf-Gebet beten: Beten Sie 2 Rak'ah hinter Maqam Ibrahim oder im Haram.",
+    "post_step_3": "3. Zamzam-Wasser trinken: Trinken Sie reichlich Zamzam-Wasser mit Blick zur Qibla und sprechen Sie Bittgebete.",
+    "post_step_4": "4. Zum Sa'y gehen: Gehen Sie zum Hügel Safa, um den Sa'y zu beginnen.",
+    "btn_start_sai": "Sa'y beginnen ➔"
   },
   "tawaf_map": {
     "title": "Kaaba Tawaf Karte",
@@ -111,7 +122,13 @@
     "dir_marwa_safa": "Marwa ➔ Safa",
     "dir_completed": "Abgeschlossen",
     "tefekkur_title": "Das Geheimnis und die Reflexion des Sa'y",
-    "tefekkur_text": "Sa'y ist der Gang des unermesslichen Vertrauens (Tawakkul) unserer Mutter Hajar auf der Suche nach einem Tropfen Wasser (Barmherzigkeit) in einer trostlosen Wüste. Während wir zwischen Safa und Marwa eilen, teilen wir ihre Dringlichkeit, ihren Kampf für ihr Kind Ismail und vor allem ihr absolutes Vertrauen auf Allah. Wir wissen, dass nur Allah Zamzam (Barmherzigkeit) hervorsprudeln lässt, nachdem wir unser Bestes (Sa'y) gegeben haben."
+    "tefekkur_text": "Sa'y ist der Gang des unermesslichen Vertrauens (Tawakkul) unserer Mutter Hajar auf der Suche nach einem Tropfen Wasser (Barmherzigkeit) in einer trostlosen Wüste. Während wir zwischen Safa und Marwa eilen, teilen wir ihre Dringlichkeit, ihren Kampf für ihr Kind Ismail und vor allem ihr absolutes Vertrauen auf Allah. Wir wissen, dass nur Allah Zamzam (Barmherzigkeit) hervorsprudeln lässt, nachdem wir unser Bestes (Sa'y) gegeben haben.",
+    "complete_title": "Alhamdulillah, Ihre Umrah ist abgeschlossen!",
+    "complete_subtitle": "Die 7. Runde endet in Marwah. Befolgen Sie diese Schritte zum Verlassen des Ihram:",
+    "post_step_1": "1. Bittgebet in Marwah: Blicken Sie in Marwah zur Qibla und sprechen Sie Dua.",
+    "post_step_2": "2. Haarschnitt (Halq/Taqsir): Männer rasieren oder kürzen das Haar. Frauen kürzen eine Spitzenlänge (1-2 cm).",
+    "post_step_3": "3. Ihram verlassen: Nach dem Haarschnitt enden alle Ihram-Verbote. Umrah Mubarak!",
+    "btn_explore_ziyarat": "Heilige Ziyarat-Orte erkunden 📍"
   },
   "practical": {
     "title": "Praktische Informationen",

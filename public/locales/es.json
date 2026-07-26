@@ -57,7 +57,11 @@
       "(Hombres) No cubrirse la cabeza ni usar ropa cosida."
     ],
     "tefekkur_title": "El Secreto y la Reflexión del Ihram",
-    "tefekkur_text": "El Ihram consiste en despojarse de títulos, riqueza y estatus mundanos para darnos cuenta de nuestra pura servidumbre ante Allah. Así como resucitaremos en sudarios y nos reuniremos por igual ante nuestro Señor en el Día del Juicio, todos aquí se envuelven en la misma tela blanca. Desconectamos nuestros corazones del mundo y los unimos únicamente a Su complacencia."
+    "tefekkur_text": "El Ihram consiste en despojarse de títulos, riqueza y estatus mundanos para darnos cuenta de nuestra pura servidumbre ante Allah. Así como resucitaremos en sudarios y nos reuniremos por igual ante nuestro Señor en el Día del Juicio, todos aquí se envuelven en la misma tela blanca. Desconectamos nuestros corazones del mundo y los unimos únicamente a Su complacencia.",
+    "tips_title": "Consejos Prácticos para Asegurar tu Ihram",
+    "tip_1": "📌 Enrolla el borde superior: Enrolla el borde superior del Izar hacia afuera 2-3 veces como un cinturón.",
+    "tip_2": "📌 Usa un cinturón de Ihram: Un cinturón de Ihram con cremallera asegura la tela y guarda tus cosas.",
+    "tip_3": "📌 Regla de Iztiba: Descubre el hombro derecho SOLO durante el Tawaf. Cúbrelo durante la oración y el Sa'y."
   },
   "duas": {
     "ihram_niyyah": {
@@ -89,7 +93,14 @@
     "instruction": "Dar 7 vueltas a la Kaaba, comenzando desde la Piedra Negra, completa un Tawaf. Cada vuelta se llama 'Shawt'.",
     "confirm_reset": "¿Estás seguro de que deseas reiniciar tu contador de Tawaf?",
     "tefekkur_title": "El Secreto y la Reflexión del Tawaf",
-    "tefekkur_text": "El Tawaf es unirse al dhikr (recuerdo) cósmico del universo. Así como los electrones giran alrededor de un núcleo y los planetas alrededor del sol, el creyente da vueltas alrededor de la Kaaba como una polilla atraída por el centro de su existencia y fe. Acompañamos a los ángeles que circunvalan Bayt al-Ma'mur en los cielos. Renovamos nuestro pacto de servidumbre con nuestro Señor comenzando desde la Piedra Negra."
+    "tefekkur_text": "El Tawaf es unirse al dhikr (recuerdo) cósmico del universo. Así como los electrones giran alrededor de un núcleo y los planetas alrededor del sol, el creyente da vueltas alrededor de la Kaaba como una polilla atraída por el centro de su existencia y fe. Acompañamos a los ángeles que circunvalan Bayt al-Ma'mur en los cielos. Renovamos nuestro pacto de servidumbre con nuestro Señor comenzando desde la Piedra Negra.",
+    "complete_title": "¡Alhamdulillah, tu Tawaf ha terminado!",
+    "complete_subtitle": "Al completar el Tawaf, sigue estos pasos en orden:",
+    "post_step_1": "1. Cúbrete el hombro derecho: Vuelve a cubrir tu hombro derecho con la tela de Ihram.",
+    "post_step_2": "2. Reza 2 Rak'ahs de Tawaf: Reza 2 rak'ahs detrás de Maqam Ibrahim o en cualquier lugar del Haram.",
+    "post_step_3": "3. Bebe agua de Zamzam: Mira hacia la Qibla, bebe agua de Zamzam y haz du'a.",
+    "post_step_4": "4. Ve al Sa'y: Dirígete a la colina de Safa para comenzar el Sa'y.",
+    "btn_start_sai": "Comenzar el Sa'y ➔"
   },
   "tawaf_map": {
     "title": "Mapa de Tawaf (Kaaba)",
@@ -111,7 +122,13 @@
     "dir_marwa_safa": "Marwa ➔ Safa",
     "dir_completed": "Completado",
     "tefekkur_title": "El Secreto y la Reflexión del Sa'y",
-    "tefekkur_text": "El Sa'y es la caminata de inmensa confianza (Tawakkul) de nuestra madre Hajar, buscando una gota de agua (misericordia) en un desierto desolado. Mientras nos apresuramos entre Safa y Marwa, compartimos su urgencia, su lucha por su hijo Ismail y, lo más importante, su absoluta confianza en Allah. Sabemos que una vez que hagamos nuestro mayor esfuerzo (Sa'y), solo Allah hace que brote Zamzam (misericordia)."
+    "tefekkur_text": "El Sa'y es la caminata de inmensa confianza (Tawakkul) de nuestra madre Hajar, buscando una gota de agua (misericordia) en un desierto desolado. Mientras nos apresuramos entre Safa y Marwa, compartimos su urgencia, su lucha por su hijo Ismail y, lo más importante, su absoluta confianza en Allah. Sabemos que una vez que hagamos nuestro mayor esfuerzo (Sa'y), solo Allah hace que brote Zamzam (misericordia).",
+    "complete_title": "¡Alhamdulillah, tu Umrah ha terminado!",
+    "complete_subtitle": "La 7ª vuelta termina en Marwah. Sigue estos pasos para salir de Ihram:",
+    "post_step_1": "1. Súplica en Marwah: Mira hacia la Qibla en Marwah y haz du'a.",
+    "post_step_2": "2. Corte de pelo: Los hombres se afeitan o cortan el pelo. Las mujeres cortan 1-2 cm de las puntas.",
+    "post_step_3": "3. Salida de Ihram: Después del corte de pelo, terminan las restricciones. ¡Umrah Mubarak!",
+    "btn_explore_ziyarat": "Explorar Lugares Sagrados de Ziyarat 📍"
   },
   "practical": {
     "title": "Información Práctica",
