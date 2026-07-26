@@ -101,13 +101,14 @@ const HomePage = {
           <p class="text-sm" data-i18n="home.tefekkur_text"></p>
         </div>
         
-        <div style="display: flex; gap: 8px; margin-top: var(--spacing-4);">
-          <button class="btn btn-primary" style="flex: 2;" data-link="/umrah/preparation" aria-label="${i18n.t('aria.start_umrah')}">
+        <div style="display: flex; flex-direction: column; gap: 12px; margin-top: var(--spacing-4);">
+          <button class="btn btn-primary" style="padding: 14px;" data-link="/umrah/preparation" aria-label="${i18n.t('aria.start_umrah')}">
             <span data-i18n="home.start_button"></span>
           </button>
           
-          <button class="btn btn-outline" style="flex: 1; padding: var(--spacing-3);" data-link="/umrah/ziyarat" aria-label="${i18n.t('ziyarat.title')}">
-            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          <button class="btn btn-outline" style="padding: 12px;" data-link="/umrah/ziyarat" aria-label="${i18n.t('ziyarat.title')}">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+            <span data-i18n="ziyarat.title"></span>
           </button>
         </div>
       </main>
