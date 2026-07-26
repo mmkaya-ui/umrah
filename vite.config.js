@@ -14,9 +14,9 @@ export default defineConfig({
       ],
       manifest: {
         id: '/',
-        name: 'Umrah Guide',
-        short_name: 'Umrah Guide',
-        description: 'Umrah guide and counter application',
+        name: 'Umrah Companion',
+        short_name: 'Umrah Companion',
+        description: 'Offline-capable modern Umrah guide with interactive map and counters.',
         theme_color: '#0A0F1A',
         background_color: '#0A0F1A',
         display: 'standalone',

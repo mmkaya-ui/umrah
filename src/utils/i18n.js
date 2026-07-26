@@ -1,10 +1,10 @@
 class I18nEngine {
   constructor() {
+    this.supportedLangs = ['tr', 'en', 'de', 'ar', 'ru', 'es', 'ko'];
     this.currentLang = localStorage.getItem('i18n_lang') || this.detectBrowserLang();
     this.fallbackLang = 'tr'; // Turkish is the base language for development
     this.translations = {};
     this.fallbackTranslations = {};
-    this.supportedLangs = ['tr', 'en', 'de', 'ar', 'ru', 'es', 'ko'];
   }
 
   detectBrowserLang() {

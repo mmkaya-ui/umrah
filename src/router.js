@@ -1,7 +1,6 @@
 export class Router {
   constructor(routes) {
     this.routes = routes;
-    this.appElement = document.getElementById('page-content');
     
     window.addEventListener('popstate', () => this.handleRoute(location.pathname));
     
@@ -12,6 +11,10 @@ export class Router {
         this.navigateTo(link.getAttribute('href'));
       }
     });
+  }
+
+  get appElement() {
+    return document.getElementById('page-content');
   }
 
   navigateTo(url) {
