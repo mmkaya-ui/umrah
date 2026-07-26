@@ -48,9 +48,22 @@ img, picture, svg, video {
 /* Typography Classes */
 .text-gold { color: var(--color-gold); }
 .text-muted { color: var(--color-text-muted); }
+.text-green { color: var(--color-success); }
 .font-medium { font-weight: 500; }
 .font-semibold { font-weight: 600; }
 .font-bold { font-weight: 700; }
+
+/* Text Sizes */
+.text-xs { font-size: var(--text-xs); }
+.text-sm { font-size: var(--text-sm); }
+.text-base { font-size: var(--text-base); }
+.text-lg { font-size: var(--text-lg); }
+.text-xl { font-size: var(--text-xl); }
+.text-2xl { font-size: var(--text-2xl); }
+
+/* Dynamic Font Scaling */
+html[data-font-scale="large"] { font-size: 18px; }
+html[data-font-scale="largest"] { font-size: 20px; }
 
 .arabic {
   font-family: var(--font-arabic);

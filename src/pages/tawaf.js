@@ -6,21 +6,21 @@ export const TawafPage = {
     // We will initialize the counter state in a route-changed listener, but for now we render the skeleton
     return `
     <div class="page-container">
-      <header class="app-header">
-        <a href="/" class="text-muted" data-link="/" style="display: flex; align-items: center;">
-          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 19l-7-7 7-7"></path></svg>
+      <header class="app-header" role="banner">
+        <a href="/" class="text-muted" data-link="/" style="display: flex; align-items: center;" data-i18n-attr="aria-label:aria.go_back">
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 19l-7-7 7-7"></path></svg>
         </a>
         <div class="header-title" data-i18n="tawaf.title"></div>
         <div style="width:24px;"></div>
       </header>
       
-      <main style="padding-top: var(--spacing-4);">
+      <main style="padding-top: var(--spacing-4);" role="main">
         <!-- Counter UI -->
         <div class="card" style="text-align: center;">
           <h2 class="text-gold font-semibold" style="margin-bottom: var(--spacing-2);" data-i18n="tawaf.counter_title"></h2>
           <p class="text-sm text-muted" style="margin-bottom: var(--spacing-4);" data-i18n="tawaf.instruction"></p>
           
-          <div class="counter-display" style="font-size: 48px; font-weight: bold; color: var(--color-gold); margin: var(--spacing-4) 0;">
+          <div class="counter-display" style="font-size: 48px; font-weight: bold; color: var(--color-gold); margin: var(--spacing-4) 0;" aria-live="polite">
             <span id="tawaf-count">0</span><span style="font-size: 24px; color: var(--color-text-muted);">/7</span>
           </div>
           
@@ -101,7 +101,7 @@ export const TawafPage = {
     });
     
     btnReset.addEventListener('click', () => {
-      if (confirm(i18n.currentLang === 'tr' ? 'Sayacı sıfırlamak istediğinize emin misiniz?' : 'Are you sure you want to reset the counter?')) {
+      if (confirm(i18n.t('tawaf.confirm_reset'))) {
         currentCount = 0;
         localStorage.setItem('tawaf_count', '0');
         updateUI();

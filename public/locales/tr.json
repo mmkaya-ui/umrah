@@ -57,11 +57,20 @@
     "complete": "Elhamdülillah, tavafınızı tamamladınız.",
     "add_round": "Bir Şavt Ekle",
     "reset": "Sayacı Sıfırla",
-    "instruction": "Hacer-ül Esved hizasından başlayarak Kabe'nin etrafında 7 kez dönmek bir tavaftır. Her dönüşe 'şavt' denir."
+    "instruction": "Hacer-ül Esved hizasından başlayarak Kabe'nin etrafında 7 kez dönmek bir tavaftır. Her dönüşe 'şavt' denir.",
+    "confirm_reset": "Tavaf sayacını sıfırlamak istediğinize emin misiniz?"
   },
   "sai": {
     "title": "Sa'y",
-    "instruction": "Safa tepesinden başlayarak Merve'ye gidiş 1, dönüş 2 olmak üzere toplam 7 kez yürüyeceğiz."
+    "counter_title": "Sa'y Sayacı",
+    "complete": "Elhamdülillah, Sa'y ibadetini tamamladınız.",
+    "add_round": "Bir Şavt Ekle",
+    "reset": "Sayacı Sıfırla",
+    "instruction": "Safa tepesinden başlayarak Merve'ye gidiş 1, dönüş 2 olmak üzere toplam 7 kez yürüyeceğiz.",
+    "confirm_reset": "Sa'y sayacını sıfırlamak istediğinize emin misiniz?",
+    "dir_safa_marwa": "Safa ➔ Merve",
+    "dir_marwa_safa": "Merve ➔ Safa",
+    "dir_completed": "Bitti / Completed"
   },
   "practical": {
     "title": "Pratik Bilgiler",
@@ -75,5 +84,17 @@
   "common": {
     "copy": "Kopyala",
     "copied": "Kopyalandı!"
+  },
+  "aria": {
+    "main_nav": "Ana Menü",
+    "nav_home": "Ana Sayfa",
+    "nav_guide": "Rehber",
+    "nav_tawaf": "Tavaf",
+    "nav_sai": "Sa'y",
+    "nav_practical": "Pratik Bilgiler",
+    "font_scale": "Yazı tipini büyüt/küçült",
+    "lang_switch": "Dil Seçimi",
+    "start_umrah": "Umreye Başla",
+    "go_back": "Geri Dön"
   }
 }

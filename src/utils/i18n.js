@@ -74,7 +74,7 @@ class I18nEngine {
       const key = el.getAttribute('data-i18n');
       const translation = this.t(key);
       if (typeof translation === 'string') {
-        el.innerHTML = translation; // Using innerHTML to support <bdi> tags and basic formatting
+        el.textContent = translation;
       }
     });
 

@@ -57,11 +57,20 @@
     "complete": "Alhamdulillah, you have completed the Tawaf.",
     "add_round": "Add One Round",
     "reset": "Reset Counter",
-    "instruction": "Circling the Kaaba 7 times, starting from the Black Stone (Hajr al-Aswad), completes one Tawaf. Each round is called a 'Shawt'."
+    "instruction": "Circling the Kaaba 7 times, starting from the Black Stone (Hajr al-Aswad), completes one Tawaf. Each round is called a 'Shawt'.",
+    "confirm_reset": "Are you sure you want to reset the Tawaf counter?"
   },
   "sai": {
     "title": "Sa'i",
-    "instruction": "Starting from Mount Safa and walking to Mount Marwa counts as 1. We will walk between them 7 times in total."
+    "counter_title": "Sa'i Counter",
+    "complete": "Alhamdulillah, you have completed the Sa'i.",
+    "add_round": "Add One Round",
+    "reset": "Reset Counter",
+    "instruction": "Starting from Mount Safa and walking to Mount Marwa counts as 1. We will walk between them 7 times in total.",
+    "confirm_reset": "Are you sure you want to reset the Sa'i counter?",
+    "dir_safa_marwa": "Safa ➔ Marwa",
+    "dir_marwa_safa": "Marwa ➔ Safa",
+    "dir_completed": "Completed"
   },
   "practical": {
     "title": "Practical Information",
@@ -75,5 +84,17 @@
   "common": {
     "copy": "Copy",
     "copied": "Copied!"
+  },
+  "aria": {
+    "main_nav": "Main Navigation",
+    "nav_home": "Home",
+    "nav_guide": "Guide",
+    "nav_tawaf": "Tawaf",
+    "nav_sai": "Sa'i",
+    "nav_practical": "Practical Info",
+    "font_scale": "Change font size",
+    "lang_switch": "Language Selection",
+    "start_umrah": "Start Umrah",
+    "go_back": "Go Back"
   }
 }

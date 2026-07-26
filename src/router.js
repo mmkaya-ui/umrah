@@ -1,7 +1,7 @@
 export class Router {
   constructor(routes) {
     this.routes = routes;
-    this.appElement = document.getElementById('app');
+    this.appElement = document.getElementById('page-content');
     
     window.addEventListener('popstate', () => this.handleRoute(location.pathname));
     
@@ -34,6 +34,7 @@ export class Router {
       await this.renderRoute(route);
       this.appElement.classList.remove('page-exit');
       this.appElement.classList.add('page-enter');
+      setTimeout(() => this.appElement.classList.remove('page-enter'), 300);
     }
   }
 
