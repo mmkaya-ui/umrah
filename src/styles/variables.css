@@ -1,0 +1,67 @@
+:root {
+  /* Color Palette */
+  --color-primary: #0D4B3C;
+  --color-primary-light: #166A56;
+  --color-primary-dark: #072C23;
+  --color-gold: #C9A84C;
+  --color-gold-light: #E3C570;
+  
+  --color-bg: #0A0F1A;
+  --color-surface: #141B2D;
+  --color-surface-hover: #1A243A;
+  
+  --color-text-main: #E8E6E3;
+  --color-text-muted: #A0A5B5;
+  --color-text-arabic: #F5E6C8;
+  
+  --color-success: #2DD4BF;
+  --color-success-light: rgba(45, 212, 191, 0.1);
+  --color-warning: #F59E0B;
+  --color-warning-light: rgba(245, 158, 11, 0.1);
+  --color-danger: #EF4444;
+
+  /* Typography */
+  --font-ui: 'Inter', system-ui, sans-serif;
+  --font-arabic: 'Amiri Quran', serif;
+  
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-arabic-base: 1.75rem;
+  --text-arabic-lg: 2.25rem;
+
+  /* Spacing */
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+
+  /* Border Radius */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5), 0 2px 4px -1px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -2px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 15px rgba(201, 168, 76, 0.15);
+
+  /* Safe Areas (iOS) */
+  --sat: env(safe-area-inset-top, 0px);
+  --sab: env(safe-area-inset-bottom, 0px);
+  --sal: env(safe-area-inset-left, 0px);
+  --sar: env(safe-area-inset-right, 0px);
+}
