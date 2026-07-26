@@ -66,7 +66,16 @@ const HomePage = {
   render: () => `
     <div class="page-container">
       <header class="app-header" role="banner">
-        <div class="header-title" data-i18n="nav.guide"></div>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <svg width="26" height="26" viewBox="0 0 512 512" fill="none">
+            <path d="M420 256C420 346.573 346.573 420 256 420C215.112 420 177.788 405.029 149.07 380.125C215.86 376.128 269 321.05 269 253C269 184.95 215.86 129.872 149.07 125.875C177.788 100.971 215.112 86 256 86C346.573 86 420 159.427 420 256Z" fill="#D4AF37"/>
+            <rect x="220" y="200" width="100" height="110" rx="10" fill="#D4AF37"/>
+            <rect x="225" y="205" width="90" height="100" rx="8" fill="#0A0F1A"/>
+            <path d="M225 225H315" stroke="#D4AF37" stroke-width="8"/>
+            <rect x="255" y="260" width="30" height="45" rx="4" fill="#D4AF37"/>
+          </svg>
+          <span style="font-weight: 700; color: var(--color-gold); font-size: 1.1rem;">Umrah Companion</span>
+        </div>
         <div style="display: flex; align-items: center; gap: 8px;">
           <button id="font-scale-btn" class="btn btn-outline" style="width: auto; padding: 4px 10px; font-size: 14px; font-weight: 700; min-width: 36px;" aria-label="${i18n.t('aria.font_scale')}" title="${i18n.t('aria.font_scale')}">
             ${FONT_LABELS[getFontScale()]}

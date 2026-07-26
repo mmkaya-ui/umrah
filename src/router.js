@@ -8,7 +8,10 @@ export class Router {
       const link = e.target.closest('[data-link]');
       if (link) {
         e.preventDefault();
-        this.navigateTo(link.getAttribute('href'));
+        const targetUrl = link.getAttribute('data-link') || link.getAttribute('href');
+        if (targetUrl) {
+          this.navigateTo(targetUrl);
+        }
       }
     });
   }
