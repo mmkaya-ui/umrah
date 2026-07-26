@@ -36,7 +36,41 @@
       "arabic": "لَبَّيْكَ اللَّهُمَّ عُمْرَةً",
       "transliteration": "Labbayk Allahumma 'umratan",
       "translation": "Here I am, O Allah, intending to perform Umrah."
+    },
+    "tawaf_start": {
+      "title": "Niyyah & Start of Tawaf (Hajr al-Aswad)",
+      "arabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ",
+      "transliteration": "Bismillahi Allahu Akbar",
+      "translation": "In the name of Allah, Allah is the Greatest."
+    },
+    "rabbana_atina": {
+      "title": "Dua between Yemeni Corner & Black Stone",
+      "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+      "transliteration": "Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan wa qina 'adhaban-nar",
+      "translation": "Our Lord, give us in this world good and in the Hereafter good and protect us from the punishment of the Fire."
     }
+  },
+  "tawaf": {
+    "title": "Tawaf",
+    "counter_title": "Tawaf Counter",
+    "round_info": "Round {current} of 7",
+    "complete": "Alhamdulillah, you have completed the Tawaf.",
+    "add_round": "Add One Round",
+    "reset": "Reset Counter",
+    "instruction": "Circling the Kaaba 7 times, starting from the Black Stone (Hajr al-Aswad), completes one Tawaf. Each round is called a 'Shawt'."
+  },
+  "sai": {
+    "title": "Sa'i",
+    "instruction": "Starting from Mount Safa and walking to Mount Marwa counts as 1. We will walk between them 7 times in total."
+  },
+  "practical": {
+    "title": "Practical Information",
+    "haircut_title": "Haircut (Halq/Taqsir) & Exiting Ihram",
+    "haircut_desc": "As the final step of Umrah, men must shave or trim their hair, and women trim a small portion. Reliable and clean barbers can be found right outside the Marwa exit. You may also do this in your hotel.",
+    "haircut_map": "View Barbers on Map",
+    "dining_title": "Dining Guide",
+    "dining_desc": "Around Masjid al-Haram, especially in the Abraj Al Bait (Clock Tower) and Jabal Omar complexes, there are many clean and reliable food courts. If you want to try a local favorite, Al Baik is a great option.",
+    "dining_map": "View Dining Areas on Map"
   },
   "common": {
     "copy": "Copy",

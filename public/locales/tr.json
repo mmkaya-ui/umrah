@@ -36,7 +36,41 @@
       "arabic": "لَبَّيْكَ اللَّهُمَّ عُمْرَةً",
       "transliteration": "Lebbeyk Allâhümme 'umraten",
       "translation": "Buyur Allah'ım, umre yapmaya niyet ettim."
+    },
+    "tawaf_start": {
+      "title": "Niyet ve Başlangıç (Hacer-ül Esved)",
+      "arabic": "بِسْمِ اللَّهِ وَاللَّهُ أَكْبَرُ",
+      "transliteration": "Bismillâhi Allâhu Ekber",
+      "translation": "Allah'ın adıyla, Allah en büyüktür."
+    },
+    "rabbana_atina": {
+      "title": "Rükn-ü Yemani ile Hacer-ül Esved Arasında Okunacak Dua",
+      "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+      "transliteration": "Rabbenâ âtinâ fi'd-dünyâ haseneten ve fi'l-âhirati haseneten ve kınâ azâben-nâr",
+      "translation": "Rabbimiz! Bize dünyada da iyilik ver, ahirette de iyilik ver ve bizi ateş azabından koru."
     }
+  },
+  "tawaf": {
+    "title": "Tavaf",
+    "counter_title": "Tavaf Sayacı",
+    "round_info": "{current}. Şavt / 7",
+    "complete": "Elhamdülillah, tavafınızı tamamladınız.",
+    "add_round": "Bir Şavt Ekle",
+    "reset": "Sayacı Sıfırla",
+    "instruction": "Hacer-ül Esved hizasından başlayarak Kabe'nin etrafında 7 kez dönmek bir tavaftır. Her dönüşe 'şavt' denir."
+  },
+  "sai": {
+    "title": "Sa'y",
+    "instruction": "Safa tepesinden başlayarak Merve'ye gidiş 1, dönüş 2 olmak üzere toplam 7 kez yürüyeceğiz."
+  },
+  "practical": {
+    "title": "Pratik Bilgiler",
+    "haircut_title": "Tıraş ve İhramdan Çıkış",
+    "haircut_desc": "Umrenin son adımı olarak saçları kısaltmak veya kazıtmak gerekir. Merve kapısı çıkışında (Safa-Merve sa'y alanının sonu) güvenilir ve temiz berberler bulabilirsiniz. Otelinizde de kendi imkanlarınızla tıraş olabilirsiniz.",
+    "haircut_map": "Berberleri Haritada Gör",
+    "dining_title": "Yeme - İçme Rehberi",
+    "dining_desc": "Mescid-i Haram etrafında, özellikle Abraj Al Bait (Saat Kulesi) ve Jabal Omar bölgelerinde temiz ve güvenilir yemek alanları mevcuttur. Yerel lezzetleri tatmak isterseniz Al Baik iyi bir seçenektir.",
+    "dining_map": "Yemek Alanlarını Haritada Gör"
   },
   "common": {
     "copy": "Kopyala",

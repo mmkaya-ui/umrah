@@ -1,6 +1,9 @@
 import { Router } from './router.js';
 import { i18n } from './utils/i18n.js';
 import { Storage } from './utils/storage.js';
+import { TawafPage } from './pages/tawaf.js';
+import { SaiPage } from './pages/sai.js';
+import { PracticalPage } from './pages/practical.js';
 
 const HomePage = {
   render: () => `
@@ -42,6 +45,18 @@ const HomePage = {
         <a href="/umrah/preparation" class="nav-item" data-link="/umrah/preparation">
           <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
           <span data-i18n="nav.guide"></span>
+        </a>
+        <a href="/umrah/tawaf" class="nav-item" data-link="/umrah/tawaf">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+          <span data-i18n="tawaf.title"></span>
+        </a>
+        <a href="/umrah/sai" class="nav-item" data-link="/umrah/sai">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path></svg>
+          <span data-i18n="sai.title"></span>
+        </a>
+        <a href="/umrah/practical" class="nav-item" data-link="/umrah/practical">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          <span data-i18n="nav.practical"></span>
         </a>
       </nav>
     </div>
@@ -97,49 +112,45 @@ const PreparationPage = {
 const routes = {
   '/': HomePage,
   '/umrah/preparation': PreparationPage,
+  '/umrah/tawaf': TawafPage,
+  '/umrah/sai': SaiPage,
+  '/umrah/practical': PracticalPage,
 };
 
 const router = new Router(routes);
 
 async function bootstrap() {
   await i18n.init();
+  
+  // Global Event Delegation for memory efficiency
+  document.getElementById('app').addEventListener('change', (e) => {
+    // Handle Language Switcher
+    if (e.target.id === 'lang-switch') {
+      i18n.setLanguage(e.target.value);
+    }
+    
+    // Handle Checklists
+    if (e.target.type === 'checkbox' && e.target.id.startsWith('check_')) {
+      const stepId = e.target.id.replace('check_', '');
+      Storage.toggleProgress(stepId, e.target.checked);
+      
+      const card = document.getElementById('card_' + stepId);
+      if (card) {
+        if (e.target.checked) card.classList.add('completed-card');
+        else card.classList.remove('completed-card');
+      }
+    }
+  });
+
   router.handleRoute(location.pathname);
   
   // Re-translate when route changes
   document.addEventListener('route-changed', () => {
     i18n.translateDOM();
-    setupChecklists();
-    
-    // Bind lang switch
-    const langSwitch = document.getElementById('lang-switch');
-    if (langSwitch) {
-      langSwitch.addEventListener('change', async (e) => {
-        await i18n.setLanguage(e.target.value);
-        // Refresh page to apply language properly in template literal cases if needed
-        // Or simply translateDOM again since we used data-i18n
-      });
-    }
   });
   
   window.addEventListener('languageChanged', () => {
     router.handleRoute(location.pathname); // Re-render whole page to inject correct translation bindings
-  });
-}
-
-function setupChecklists() {
-  const checkboxes = document.querySelectorAll('input[type="checkbox"]');
-  checkboxes.forEach(cb => {
-    cb.addEventListener('change', (e) => {
-      const stepId = e.target.id.replace('check_', '');
-      Storage.toggleProgress(stepId, e.target.checked);
-      
-      const card = document.getElementById('card_' + stepId);
-      if (e.target.checked) {
-        card.classList.add('completed-card');
-      } else {
-        card.classList.remove('completed-card');
-      }
-    });
   });
 }
 

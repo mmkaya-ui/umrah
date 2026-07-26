@@ -38,12 +38,16 @@ export class Router {
   }
 
   async renderRoute(route) {
-    // Simulate lazy loading component or just run render fn
     const content = typeof route.render === 'function' ? await route.render() : route.render;
     this.appElement.innerHTML = content;
     window.scrollTo({ top: 0, behavior: 'instant' });
     
     // Dispatch event so components can initialize
     document.dispatchEvent(new CustomEvent('route-changed', { detail: { path: location.pathname } }));
+    
+    // Call page-specific lifecycle hook
+    if (typeof route.afterRender === 'function') {
+      route.afterRender();
+    }
   }
 }
