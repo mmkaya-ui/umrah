@@ -70,7 +70,22 @@ export const TawafPage = {
             <span data-i18n="tawaf.reset"></span>
           </button>
           
-          <div id="tawaf-complete-msg" class="text-green font-semibold" style="display: none; margin-top: var(--spacing-4);" data-i18n="tawaf.complete"></div>
+          <div id="tawaf-complete-msg" style="display: none; margin-top: var(--spacing-5); text-align: left; background: rgba(13, 75, 60, 0.25); border: 1px solid var(--color-gold); border-radius: var(--radius-lg); padding: var(--spacing-4);">
+            <div style="color: var(--color-gold); font-weight: 700; font-size: 1.1rem; margin-bottom: 8px; display: flex; align-items: center; gap: 8px;">
+              <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              <span>Elhamdülillah, Tavafınız Tamamlandı!</span>
+            </div>
+            <p class="text-xs text-muted" style="margin-bottom: 12px;">Tavafınız bittiğinde sırasıyla şu adımları takip ediniz:</p>
+            <ol style="padding-left: 20px; font-size: 0.85rem; color: var(--color-text-main); margin-bottom: 16px; display: flex; flex-direction: column; gap: 8px;">
+              <li><strong>1. Sağ Omzunuzu Kapatın:</strong> Tavafta açılan sağ omzu (Iztıba) tekrar ihram bezinizle örtün.</li>
+              <li><strong>2. 2 Rekat Tavaf Namazı Kılın:</strong> Makam-ı İbrahim arkasında veya Harem'in uygun bir yerinde 2 rekat namaz kılın (1. rekat Kafirun, 2. rekat İhlas).</li>
+              <li><strong>3. Doyasıya Zemzem İçin:</strong> İçme alanında kıbleye dönüp ayakta Zemzem içiniz, başınıza sürünüz ve dua ediniz.</li>
+              <li><strong>4. Sa'y İbadetine Geçin:</strong> Safa tepesine doğru yönelerek Sa'y alanına ilerleyin.</li>
+            </ol>
+            <button class="btn btn-primary" data-link="/umrah/sai" style="width: 100%;">
+              <span>Sa'y İbadetine Başla ➔</span>
+            </button>
+          </div>
         </div>
 
         <!-- Duas -->

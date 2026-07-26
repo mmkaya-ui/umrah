@@ -44,7 +44,21 @@ export const SaiPage = {
             <span data-i18n="sai.reset"></span>
           </button>
           
-          <div id="sai-complete-msg" class="text-green font-semibold" style="display: none; margin-top: var(--spacing-4);" data-i18n="sai.complete"></div>
+          <div id="sai-complete-msg" style="display: none; margin-top: var(--spacing-5); text-align: left; background: rgba(13, 75, 60, 0.25); border: 1px solid var(--color-gold); border-radius: var(--radius-lg); padding: var(--spacing-4);">
+            <div style="color: var(--color-gold); font-weight: 700; font-size: 1.1rem; margin-bottom: 8px; display: flex; align-items: center; gap: 8px;">
+              <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              <span>Elhamdülillah, Sa'y ve Umreniz Tamamlandı!</span>
+            </div>
+            <p class="text-xs text-muted" style="margin-bottom: 12px;">7. şavt Merve tepesinde biter. İhramdan çıkmak için sırasıyla şu adımları takip ediniz:</p>
+            <ol style="padding-left: 20px; font-size: 0.85rem; color: var(--color-text-main); margin-bottom: 16px; display: flex; flex-direction: column; gap: 8px;">
+              <li><strong>1. Merve Tepesinde Dua Edin:</strong> Merve tepesinde kıbleye dönüp hamd edin ve gönlünüzden geçen duaları yapın.</li>
+              <li><strong>2. Tıraş Olun (Saç Kesimi):</strong> Erkekler saçlarını tamamen kazıtır veya kısaltır. Kadınlar saç uçlarından parmak ucu kadar (1-2 cm) keserler.</li>
+              <li><strong>3. İhramdan Çıkış:</strong> Saç kesildikten sonra ihram yasakları kalkar, günlük elbiselerinizi giyebilirsiniz. Umreniz mübarek olsun!</li>
+            </ol>
+            <button class="btn btn-primary" data-link="/umrah/ziyarat" style="width: 100%;">
+              <span>Kutsal Ziyaret Yerlerini Keşfet 📍</span>
+            </button>
+          </div>
         </div>
       </main>
     </div>
