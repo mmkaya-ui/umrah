@@ -112,6 +112,8 @@ const HomePage = {
             <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
             <span data-i18n="ziyarat.title"></span>
           </button>
+        <div class="card footer-wish-card" style="margin-top: var(--spacing-6); margin-bottom: 20px; background: linear-gradient(135deg, rgba(13, 75, 60, 0.3) 0%, rgba(201, 168, 76, 0.12) 100%); border: 1px solid var(--color-gold); text-align: center; padding: 20px; border-radius: var(--radius-xl); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);">
+          <p style="font-size: 0.9rem; line-height: 1.6; color: var(--color-text-arabic); font-style: italic; font-weight: 500;" data-i18n="wishes.home"></p>
         </div>
       </main>
     </div>
@@ -256,6 +258,10 @@ const PreparationPage = {
         </div>
 
         ${stepsHTML}
+
+        <div class="card footer-wish-card" style="margin-top: var(--spacing-6); margin-bottom: 20px; background: linear-gradient(135deg, rgba(13, 75, 60, 0.3) 0%, rgba(201, 168, 76, 0.12) 100%); border: 1px solid var(--color-gold); text-align: center; padding: 20px; border-radius: var(--radius-xl); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);">
+          <p style="font-size: 0.9rem; line-height: 1.6; color: var(--color-text-arabic); font-style: italic; font-weight: 500;" data-i18n="wishes.preparation"></p>
+        </div>
       </main>
     </div>
   `;

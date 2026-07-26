@@ -61,6 +61,9 @@ export const DhikrPage = {
           <div id="dhikr-complete-banner" style="display: none; margin-top: 16px; background: rgba(45, 212, 191, 0.15); border: 1px solid var(--color-success); padding: 12px; border-radius: var(--radius-lg); color: var(--color-success); font-weight: 600;" data-i18n="dhikr.complete_msg">
           </div>
         </div>
+        <div class="card footer-wish-card" style="margin-top: var(--spacing-6); margin-bottom: 20px; background: linear-gradient(135deg, rgba(13, 75, 60, 0.3) 0%, rgba(201, 168, 76, 0.12) 100%); border: 1px solid var(--color-gold); text-align: center; padding: 20px; border-radius: var(--radius-xl); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);">
+          <p style="font-size: 0.9rem; line-height: 1.6; color: var(--color-text-arabic); font-style: italic; font-weight: 500;" data-i18n="wishes.dhikr"></p>
+        </div>
       </main>
     </div>
     `;

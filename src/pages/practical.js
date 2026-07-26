@@ -46,6 +46,8 @@ export const PracticalPage = {
           <button class="btn btn-primary" style="width: 100%;" data-link="/umrah/ziyarat">
             <span data-i18n="ziyarat.title"></span>
           </button>
+        <div class="card footer-wish-card" style="margin-top: var(--spacing-6); margin-bottom: 20px; background: linear-gradient(135deg, rgba(13, 75, 60, 0.3) 0%, rgba(201, 168, 76, 0.12) 100%); border: 1px solid var(--color-gold); text-align: center; padding: 20px; border-radius: var(--radius-xl); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);">
+          <p style="font-size: 0.9rem; line-height: 1.6; color: var(--color-text-arabic); font-style: italic; font-weight: 500;" data-i18n="wishes.practical"></p>
         </div>
       </main>
     </div>
