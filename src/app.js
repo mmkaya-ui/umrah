@@ -122,7 +122,7 @@ const PreparationPage = {
     for (let i = 1; i <= 5; i++) {
       const isCompleted = Storage.getProgress(`step_prep_${i}`);
       stepsHTML += `
-        <div class="card ${isCompleted ? 'completed-card' : ''}" id="card_step_prep_${i}">
+        <div class="card ${isCompleted ? 'completed-card' : ''}" id="card_step_prep_${i}" style="cursor: pointer;">
           <div style="display: flex; justify-content: space-between; align-items: flex-start;">
             <div>
               <div class="badge badge-step">${i}</div>
@@ -272,6 +272,17 @@ async function bootstrap() {
     // Font Scale button
     if (e.target.id === 'font-scale-btn' || e.target.closest('#font-scale-btn')) {
       cycleFontScale();
+    }
+
+    // Step Card Click Toggle (Clicking anywhere on the card toggles completion)
+    const stepCard = e.target.closest('[id^="card_step_prep_"]');
+    if (stepCard && !e.target.closest('[data-zoom-img]') && !e.target.closest('.custom-checkbox') && !e.target.closest('button') && !e.target.closest('a')) {
+      const stepId = stepCard.id.replace('card_', '');
+      const checkbox = document.getElementById('check_' + stepId);
+      if (checkbox) {
+        checkbox.checked = !checkbox.checked;
+        checkbox.dispatchEvent(new Event('change', { bubbles: true }));
+      }
     }
 
     // Image Zoom Modal Trigger
