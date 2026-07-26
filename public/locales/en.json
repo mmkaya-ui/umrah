@@ -55,7 +55,9 @@
       "Do not pluck or cut the plants of the Haram (Makkah).",
       "Do not argue, use bad language, or lose your temper.",
       "(For Men) Do not cover the head, or wear stitched clothes, underwear, or socks."
-    ]
+    ],
+    "tefekkur_title": "The Secret and Reflection of Ihram",
+    "tefekkur_text": "Ihram is about stripping away worldly titles, wealth, and status to realize our pure servitude before Allah. Just as we will be resurrected in shrouds and gathered equally before our Lord on the Day of Judgment, everyone here wraps themselves in the same white cloth. By the secret of 'Deeds are judged by intentions' (Bukhari), we detach our hearts from the world and bind them solely to His pleasure. To enter Ihram is, in a way, to die before dying; it is melting pride, arrogance, and worldly ambitions into that white cloth."
   },
   "duas": {
     "ihram_niyyah": {
@@ -85,7 +87,9 @@
     "add_round": "Add One Round",
     "reset": "Reset Counter",
     "instruction": "Circling the Kaaba 7 times, starting from the Black Stone (Hajr al-Aswad), completes one Tawaf. Each round is called a 'Shawt'.",
-    "confirm_reset": "Are you sure you want to reset the Tawaf counter?"
+    "confirm_reset": "Are you sure you want to reset the Tawaf counter?",
+    "tefekkur_title": "The Secret and Reflection of Tawaf",
+    "tefekkur_text": "Tawaf is joining the cosmic dhikr (remembrance) of the universe. Just as electrons revolve around a nucleus and planets revolve around the sun, the believer circles the Kaaba like a moth drawn to the center of their existence and faith. We accompany the angels who circumambulate Bayt al-Ma'mur in the heavens. The Prophet (pbuh) said: 'Whoever circumambulates the Kaaba becomes as sinless as the day his mother bore him.' Starting from the Black Stone (Hajar al-Aswad), we renew our covenant of servitude with our Lord."
   },
   "tawaf_map": {
     "title": "Kaaba Tawaf Map",
@@ -105,7 +109,9 @@
     "confirm_reset": "Are you sure you want to reset the Sa'i counter?",
     "dir_safa_marwa": "Safa ➔ Marwa",
     "dir_marwa_safa": "Marwa ➔ Safa",
-    "dir_completed": "Completed"
+    "dir_completed": "Completed",
+    "tefekkur_title": "The Secret and Reflection of Sa'y",
+    "tefekkur_text": "Sa'y is the walk of immense reliance (Tawakkul) of our mother Hajar, searching for a drop of water (mercy) in a desolate desert. As we hurry between Safa and Marwa, we share in her urgency, her struggle for her child Ismail, and most importantly, her absolute trust in Allah. We know that once we do our utmost (Sa'y), it is only Allah who causes the Zamzam (mercy) to gush forth. 'Indeed, as-Safa and al-Marwah are among the symbols of Allah...' (Al-Baqarah, 158)."
   },
   "practical": {
     "title": "Practical Information",

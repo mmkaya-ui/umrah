@@ -15,6 +15,16 @@ export const TawafPage = {
       </header>
       
       <main style="padding-top: var(--spacing-4);" role="main">
+        <div class="card tefekkur-card" style="margin-bottom: var(--spacing-4);">
+          <div class="tefekkur-title">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"></path>
+            </svg>
+            <span data-i18n="tawaf.tefekkur_title"></span>
+          </div>
+          <p class="text-sm" data-i18n="tawaf.tefekkur_text"></p>
+        </div>
+
         <!-- Kaaba Map Visualization -->
         <div class="card" style="text-align: center; padding-bottom: var(--spacing-2);">
           <h3 class="font-semibold text-lg" style="margin-bottom: var(--spacing-4);" data-i18n="tawaf_map.title"></h3>

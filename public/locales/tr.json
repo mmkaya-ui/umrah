@@ -55,7 +55,9 @@
       "Harem bölgesinin (Mekke'nin) bitkilerini koparmamak.",
       "Tartışmamak, kötü söz söylememek, öfkelenmemek.",
       "(Erkekler için) Başa takke takmamak, dikişli iç çamaşırı veya çorap giymemek."
-    ]
+    ],
+    "tefekkur_title": "İhramın Sırrı ve Tefekkürü",
+    "tefekkur_text": "İhram, dünyevi makam, mevkî ve statülerden sıyrılarak Allah'ın huzurunda salt bir kul olduğumuzu idrak etmektir. Tıpkı mahşer gününde kefenle dirilip Rabbimizin huzurunda eşit olarak toplanacağımız gibi, burada da herkes aynı beyaz örtüye bürünür. 'Ameller niyetlere göredir' (Buhari) sırrınca, burada kalbi dünyadan koparıp sadece O'nun rızasına bağlarız. İhrama girmek bir nevi ölmeden önce ölmektir; gururu, kibri ve dünyalık hırsları o beyaz bezin içinde eritmektir."
   },
   "duas": {
     "ihram_niyyah": {
@@ -85,7 +87,9 @@
     "add_round": "Bir Şavt Ekle",
     "reset": "Sayacı Sıfırla",
     "instruction": "Hacer-ül Esved hizasından başlayarak Kabe'nin etrafında 7 kez dönmek bir tavaftır. Her dönüşe 'şavt' denir.",
-    "confirm_reset": "Tavaf sayacını sıfırlamak istediğinize emin misiniz?"
+    "confirm_reset": "Tavaf sayacını sıfırlamak istediğinize emin misiniz?",
+    "tefekkur_title": "Tavafın Sırrı ve Tefekkürü",
+    "tefekkur_text": "Tavaf, kainatın zikrine katılmaktır. Varlık aleminin merkezinde nasıl çekirdek etrafında dönen elektronlar, güneş etrafında dönen gezegenler varsa, mümin de inancının ve varlığının merkezi olan Kabe'nin etrafında adeta pervaneye döner. Meleklerin gökteki Beytül Ma'mur etrafındaki tavafına yeryüzünde biz eşlik ederiz. Peygamber Efendimiz (s.a.v) şöyle buyurur: 'Kabe'yi tavaf eden, anasından doğduğu günkü gibi günahsız olur.' Hacer-ül Esved'den başlarken, Rabbimize verdiğimiz kulluk sözünü (misak) yenileriz."
   },
   "tawaf_map": {
     "title": "Kabe Tavaf Krokisi",
@@ -105,7 +109,9 @@
     "confirm_reset": "Sa'y sayacını sıfırlamak istediğinize emin misiniz?",
     "dir_safa_marwa": "Safa ➔ Merve",
     "dir_marwa_safa": "Merve ➔ Safa",
-    "dir_completed": "Bitti / Completed"
+    "dir_completed": "Bitti / Completed",
+    "tefekkur_title": "Sa'y'ın Sırrı ve Tefekkürü",
+    "tefekkur_text": "Sa'y, ıssız bir çölde bir damla su (rahmet) arayan Hz. Hacer validemizin çaresizlik içindeki muazzam tevekkülünün yürüyüşüdür. Safa ile Merve arasında koştururken, aslında onun telaşına, yavrusu İsmail için çırpınışına ve en önemlisi Allah'a olan mutlak güvenine ortak oluruz. Zira biliriz ki, biz elimizden geleni (Sa'y) yaptıktan sonra, Zemzem'i (rahmeti) fışkırtacak olan sadece ve sadece Allah'tır. 'Şüphesiz Safa ile Merve Allah'ın nişanelerindendir...' (Bakara, 158)."
   },
   "practical": {
     "title": "Pratik Bilgiler",

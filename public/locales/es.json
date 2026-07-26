@@ -55,7 +55,9 @@
       "No arrancar plantas en el Haram.",
       "No discutir ni usar malas palabras.",
       "(Hombres) No cubrirse la cabeza ni usar ropa cosida."
-    ]
+    ],
+    "tefekkur_title": "El Secreto y la Reflexión del Ihram",
+    "tefekkur_text": "El Ihram consiste en despojarse de títulos, riqueza y estatus mundanos para darnos cuenta de nuestra pura servidumbre ante Allah. Así como resucitaremos en sudarios y nos reuniremos por igual ante nuestro Señor en el Día del Juicio, todos aquí se envuelven en la misma tela blanca. Desconectamos nuestros corazones del mundo y los unimos únicamente a Su complacencia."
   },
   "duas": {
     "ihram_niyyah": {
@@ -85,7 +87,9 @@
     "add_round": "Añadir una vuelta",
     "reset": "Reiniciar Contador",
     "instruction": "Dar 7 vueltas a la Kaaba, comenzando desde la Piedra Negra, completa un Tawaf. Cada vuelta se llama 'Shawt'.",
-    "confirm_reset": "¿Estás seguro de que deseas reiniciar tu contador de Tawaf?"
+    "confirm_reset": "¿Estás seguro de que deseas reiniciar tu contador de Tawaf?",
+    "tefekkur_title": "El Secreto y la Reflexión del Tawaf",
+    "tefekkur_text": "El Tawaf es unirse al dhikr (recuerdo) cósmico del universo. Así como los electrones giran alrededor de un núcleo y los planetas alrededor del sol, el creyente da vueltas alrededor de la Kaaba como una polilla atraída por el centro de su existencia y fe. Acompañamos a los ángeles que circunvalan Bayt al-Ma'mur en los cielos. Renovamos nuestro pacto de servidumbre con nuestro Señor comenzando desde la Piedra Negra."
   },
   "tawaf_map": {
     "title": "Mapa de Tawaf (Kaaba)",
@@ -105,7 +109,9 @@
     "confirm_reset": "¿Estás seguro de que deseas reiniciar el contador de Sa'i?",
     "dir_safa_marwa": "Safa ➔ Marwa",
     "dir_marwa_safa": "Marwa ➔ Safa",
-    "dir_completed": "Completado"
+    "dir_completed": "Completado",
+    "tefekkur_title": "El Secreto y la Reflexión del Sa'y",
+    "tefekkur_text": "El Sa'y es la caminata de inmensa confianza (Tawakkul) de nuestra madre Hajar, buscando una gota de agua (misericordia) en un desierto desolado. Mientras nos apresuramos entre Safa y Marwa, compartimos su urgencia, su lucha por su hijo Ismail y, lo más importante, su absoluta confianza en Allah. Sabemos que una vez que hagamos nuestro mayor esfuerzo (Sa'y), solo Allah hace que brote Zamzam (misericordia)."
   },
   "practical": {
     "title": "Información Práctica",
