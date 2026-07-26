@@ -15,6 +15,34 @@ export const TawafPage = {
       </header>
       
       <main style="padding-top: var(--spacing-4);" role="main">
+        <!-- Kaaba Map Visualization -->
+        <div class="card" style="text-align: center; padding-bottom: var(--spacing-2);">
+          <h3 class="font-semibold text-lg" style="margin-bottom: var(--spacing-4);" data-i18n="tawaf_map.title"></h3>
+          <div class="kaaba-map-container">
+            <div class="tawaf-path">
+              <svg class="tawaf-arrow" viewBox="0 0 24 24"><path d="M12 4l-8 8h6v8h4v-8h6z"/></svg>
+            </div>
+            <div class="rabbana-zone"></div>
+            
+            <div class="kaaba-box">
+              <div class="hijr-ismail"></div>
+              <div class="maqam-ibrahim"></div>
+              <div class="kaaba-door"></div>
+              
+              <div class="hajr-aswad-dot">
+                <div class="start-line"></div>
+              </div>
+              <div class="rukn-yamani-dot"></div>
+            </div>
+            
+            <div class="map-label label-hajr" data-i18n="tawaf_map.hajr_aswad"></div>
+            <div class="map-label label-rukn" data-i18n="tawaf_map.rukn_yamani"></div>
+            <div class="map-label label-hijr" data-i18n="tawaf_map.hijr_ismail"></div>
+            <div class="map-label label-maqam" data-i18n="tawaf_map.maqam_ibrahim"></div>
+          </div>
+          <p class="text-xs text-muted" data-i18n="tawaf_map.direction"></p>
+        </div>
+
         <!-- Counter UI -->
         <div class="card" style="text-align: center;">
           <h2 class="text-gold font-semibold" style="margin-bottom: var(--spacing-2);" data-i18n="tawaf.counter_title"></h2>
@@ -37,6 +65,7 @@ export const TawafPage = {
 
         <!-- Duas -->
         <div class="card" style="margin-top: var(--spacing-4);">
+          <img src="/images/hajr_aswad.png" alt="Hajr al-Aswad" class="info-image" loading="lazy">
           <h3 class="font-semibold text-lg" style="margin-bottom: var(--spacing-2);" data-i18n="duas.tawaf_start.title"></h3>
           <div class="dua-card">
             <div class="arabic" data-i18n="duas.tawaf_start.arabic"></div>
@@ -46,6 +75,7 @@ export const TawafPage = {
         </div>
         
         <div class="card" style="margin-top: var(--spacing-4); margin-bottom: 80px;">
+          <img src="/images/rukn_yamani.png" alt="Rukn Yamani" class="info-image" loading="lazy">
           <h3 class="font-semibold text-lg" style="margin-bottom: var(--spacing-2);" data-i18n="duas.rabbana_atina.title"></h3>
           <div class="dua-card">
             <div class="arabic" data-i18n="duas.rabbana_atina.arabic"></div>

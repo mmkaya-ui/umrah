@@ -60,6 +60,14 @@
     "instruction": "Hacer-ül Esved hizasından başlayarak Kabe'nin etrafında 7 kez dönmek bir tavaftır. Her dönüşe 'şavt' denir.",
     "confirm_reset": "Tavaf sayacını sıfırlamak istediğinize emin misiniz?"
   },
+  "tawaf_map": {
+    "title": "Kabe Tavaf Krokisi",
+    "hajr_aswad": "Hacer-ül Esved (Başlangıç)",
+    "rukn_yamani": "Rükn-ü Yemani",
+    "hijr_ismail": "Hicr-i İsmail",
+    "maqam_ibrahim": "Makam-ı İbrahim",
+    "direction": "Oklar tavaf yönünü gösterir. Hacer-ül Esved'den başlanıp tekrar aynı hizaya gelindiğinde 1 Şavt (Tur) tamamlanır. Rükn-ü Yemani ile Hacer-ül Esved arasındaki kesik çizgili alanda 'Rabbena Atina' duası okunur."
+  },
   "sai": {
     "title": "Sa'y",
     "counter_title": "Sa'y Sayacı",

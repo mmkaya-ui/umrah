@@ -60,6 +60,14 @@
     "instruction": "Das siebenmalige Umrunden der Kaaba, beginnend auf der Höhe des Schwarzen Steins, ergibt einen Tawaf. Jede Umrundung nennt man 'Schawt'.",
     "confirm_reset": "Möchtest du den Tawaf-Zähler wirklich liebevoll auf null setzen?"
   },
+  "tawaf_map": {
+    "title": "Kaaba Tawaf Karte",
+    "hajr_aswad": "Schwarzer Stein (Start)",
+    "rukn_yamani": "Jemenitische Ecke",
+    "hijr_ismail": "Hidschr Ismail",
+    "maqam_ibrahim": "Maqam Ibrahim",
+    "direction": "Die Pfeile zeigen die Richtung gegen den Uhrzeigersinn. Vom Schwarzen Stein aus bis dorthin zurück ist 1 Runde. Das 'Rabbana Atina'-Bittgebet wird in dem gestrichelten Bereich gesprochen."
+  },
   "sai": {
     "title": "Sa'i",
     "counter_title": "Sa'i Zähler",

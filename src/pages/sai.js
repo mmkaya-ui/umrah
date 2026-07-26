@@ -14,7 +14,8 @@ export const SaiPage = {
       </header>
       
       <main style="padding-top: var(--spacing-4);" role="main">
-        <div class="card" style="text-align: center;">
+        <div class="card" style="text-align: center; margin-bottom: 80px;">
+          <img src="/images/safa_marwa.png" alt="Safa and Marwa" class="info-image" loading="lazy">
           <h2 class="text-gold font-semibold" style="margin-bottom: var(--spacing-2);" data-i18n="sai.counter_title"></h2>
           <p class="text-sm text-muted" style="margin-bottom: var(--spacing-4);" data-i18n="sai.instruction"></p>
           

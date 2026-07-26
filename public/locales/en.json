@@ -60,6 +60,14 @@
     "instruction": "Circling the Kaaba 7 times, starting from the Black Stone (Hajr al-Aswad), completes one Tawaf. Each round is called a 'Shawt'.",
     "confirm_reset": "Are you sure you want to reset the Tawaf counter?"
   },
+  "tawaf_map": {
+    "title": "Kaaba Tawaf Map",
+    "hajr_aswad": "Black Stone (Start/End)",
+    "rukn_yamani": "Yemeni Corner",
+    "hijr_ismail": "Hijr Ismail",
+    "maqam_ibrahim": "Maqam Ibrahim",
+    "direction": "Arrows indicate the counter-clockwise direction of Tawaf. Starting from the Black Stone and returning to it completes 1 round. The 'Rabbana Atina' prayer is recited in the dashed area between the Yemeni Corner and the Black Stone."
+  },
   "sai": {
     "title": "Sa'i",
     "counter_title": "Sa'i Counter",

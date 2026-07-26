@@ -60,6 +60,14 @@
     "instruction": "Dar 7 vueltas a la Kaaba, comenzando desde la Piedra Negra, completa un Tawaf. Cada vuelta se llama 'Shawt'.",
     "confirm_reset": "¿Estás seguro de que deseas reiniciar tu contador de Tawaf?"
   },
+  "tawaf_map": {
+    "title": "Mapa de Tawaf (Kaaba)",
+    "hajr_aswad": "Piedra Negra (Inicio)",
+    "rukn_yamani": "Esquina Yemení",
+    "hijr_ismail": "Hijr Ismail",
+    "maqam_ibrahim": "Maqam Ibrahim",
+    "direction": "Las flechas indican la dirección en sentido contrario a las agujas del reloj. La oración 'Rabbana Atina' se recita en el área marcada entre la Esquina Yemení y la Piedra Negra."
+  },
   "sai": {
     "title": "Sa'i",
     "counter_title": "Contador de Sa'i",
