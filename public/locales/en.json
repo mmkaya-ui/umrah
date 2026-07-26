@@ -104,5 +104,24 @@
     "lang_switch": "Language Selection",
     "start_umrah": "Start Umrah",
     "go_back": "Go Back"
+  },
+  "ziyarat": {
+    "title": "Mecca & Medina Ziyarat",
+    "mecca_tab": "Mecca",
+    "medina_tab": "Medina",
+    "hira_title": "Mount Noor (Cave Hira)",
+    "hira_desc": "The place of the first revelation, a station of reflection and seclusion. A place to step away from the world's noise and feel the deep contemplation of the Prophet (pbuh).",
+    "thawr_title": "Cave of Thawr",
+    "thawr_desc": "The site of loyalty and absolute trust in Allah during the Hijrah. The station where the secret of 'Do not grieve; indeed Allah is with us' was etched into hearts.",
+    "mualla_title": "Jannat al-Mu'alla",
+    "mualla_desc": "The resting place of our mother Khadijah. A place to remember her infinite loyalty and support for the Prophet (pbuh) during his hardest days, and to pray for her.",
+    "nabawi_title": "Al-Masjid an-Nabawi & Rawdah",
+    "nabawi_desc": "Entering His (pbuh) presence. A station to lower even the sound of one's footsteps, sending greetings with heartfelt reverence. A garden from the gardens of Paradise.",
+    "quba_title": "Quba Mosque",
+    "quba_desc": "The first mosque of Islam. A place to embody piety and revive the beautiful Sunnah of the Prophet (pbuh) who would walk here every Saturday to pray.",
+    "uhud_title": "Mount Uhud & Martyrs' Cemetery",
+    "uhud_desc": "'Uhud loves us, and we love Uhud.' A station to remember the sacrifice of Hamza, the importance of obedience, and to pray for the martyrs with deep love.",
+    "baqi_title": "Jannat al-Baqi",
+    "baqi_desc": "The luminous cemetery where tens of thousands of companions rest. A place to realize the fleeting nature of this world and pray for the blessed generation who brought Islam to us."
   }
 }

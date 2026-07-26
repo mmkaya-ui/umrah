@@ -104,5 +104,24 @@
     "lang_switch": "Dil Seçimi",
     "start_umrah": "Umreye Başla",
     "go_back": "Geri Dön"
+  },
+  "ziyarat": {
+    "title": "Mekke ve Medine Ziyaretleri",
+    "mecca_tab": "Mekke",
+    "medina_tab": "Medine",
+    "hira_title": "Nur Dağı (Hira Mağarası)",
+    "hira_desc": "İlk vahyin indiği, tefekkür ve inziva makamı. Dünyanın gürültüsünden uzaklaşıp kalbi dinlemek ve Efendimiz'in (s.a.v) o derin tefekkürünü hissetmek için çıkılır.",
+    "thawr_title": "Sevr Mağarası",
+    "thawr_desc": "Hicret yolculuğunda sadakat ve Allah'a tam tevekkülün yaşandığı yer. 'Üzülme, Allah bizimle beraberdir' sırrının kalplere işlendiği makam.",
+    "mualla_title": "Cennet-ül Mualla",
+    "mualla_desc": "Hz. Hatice validemizin kabrinin bulunduğu yer. Efendimiz'e (s.a.v) en zor günlerinde gösterdiği sonsuz vefayı ve desteği hatırlayıp dua etme mekanı.",
+    "nabawi_title": "Mescid-i Nebevi & Ravza-i Mutahhara",
+    "nabawi_desc": "O'nun (s.a.v) huzuruna giriş. Ayak sesini bile kısarak, kalbi bir hürmet ve edeple selamlama makamı. Cennet bahçelerinden bir bahçe.",
+    "quba_title": "Kuba Mescidi",
+    "quba_desc": "İslam'ın ilk mescidi. Peygamber Efendimiz'in (s.a.v) cumartesi günleri yaya olarak gidip namaz kıldığı o güzel sünnetini yaşama ve takvayı kuşanma yeri.",
+    "uhud_title": "Uhud Dağı ve Şehitliği",
+    "uhud_desc": "'Uhud bizi sever, biz Uhud'u severiz.' Hz. Hamza'nın fedakarlığını ve emre sadakatin önemini hatırlama, şehitlere sevgi ve minnetle dua etme makamı.",
+    "baqi_title": "Cennet-ül Baki",
+    "baqi_desc": "On binlerce sahabenin medfun olduğu nurlu kabristan. Dünyanın faniliğini idrak edip, İslam'ı bize ulaştıran o kutlu nesle dua etme yeri."
   }
 }

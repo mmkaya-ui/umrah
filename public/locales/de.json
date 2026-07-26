@@ -104,5 +104,24 @@
     "lang_switch": "Sprachauswahl",
     "start_umrah": "Umrah Beginnen",
     "go_back": "Zurückgehen"
+  },
+  "ziyarat": {
+    "title": "Mekka & Medina Ziyarat",
+    "mecca_tab": "Mekka",
+    "medina_tab": "Medina",
+    "hira_title": "Berg Hira (Höhle Hira)",
+    "hira_desc": "Der Ort der ersten Offenbarung, eine Station der Besinnung und Zurückgezogenheit. Ein Ort, um sich vom Lärm der Welt zu entfernen und die tiefe Kontemplation des Propheten (s.a.w) zu spüren.",
+    "thawr_title": "Höhle Thawr",
+    "thawr_desc": "Der Ort der Loyalität und des absoluten Vertrauens auf Allah während der Hidschra. Die Station, wo das Geheimnis von 'Sei nicht traurig; gewiss, Allah ist mit uns' in die Herzen eingraviert wurde.",
+    "mualla_title": "Dschannat al-Mu'alla",
+    "mualla_desc": "Die Ruhestätte unserer Mutter Khadidscha. Ein Ort, um sich an ihre unendliche Loyalität und Unterstützung für den Propheten (s.a.w) in seinen schwersten Tagen zu erinnern.",
+    "nabawi_title": "Al-Masdschid an-Nabawi & Rawdah",
+    "nabawi_desc": "Das Eintreten in Seine (s.a.w) Gegenwart. Eine Station, um selbst den Klang der Schritte zu dämpfen und mit tiefer Ehrfurcht Grüße zu senden. Ein Garten aus den Gärten des Paradieses.",
+    "quba_title": "Quba-Moschee",
+    "quba_desc": "Die erste Moschee des Islam. Ein Ort, um Frömmigkeit zu verkörpern und die schöne Sunnah des Propheten (s.a.w) wiederzubeleben, der jeden Samstag hierher ging, um zu beten.",
+    "uhud_title": "Berg Uhud & Friedhof der Märtyrer",
+    "uhud_desc": "'Uhud liebt uns, und wir lieben Uhud.' Eine Station, um sich an das Opfer von Hamza und die Bedeutung des Gehorsams zu erinnern.",
+    "baqi_title": "Dschannat al-Baqi",
+    "baqi_desc": "Der leuchtende Friedhof, auf dem zehntausende Gefährten ruhen. Ein Ort, um die Vergänglichkeit dieser Welt zu erkennen und für die gesegnete Generation zu beten, die uns den Islam gebracht hat."
   }
 }

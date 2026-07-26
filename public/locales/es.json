@@ -104,5 +104,24 @@
     "lang_switch": "Selección de Idioma",
     "start_umrah": "Comenzar Umrah",
     "go_back": "Regresar"
+  },
+  "ziyarat": {
+    "title": "Ziyarat de La Meca y Medina",
+    "mecca_tab": "La Meca",
+    "medina_tab": "Medina",
+    "hira_title": "Monte Hira (Cueva de Hira)",
+    "hira_desc": "El lugar de la primera revelación, una estación de reflexión y reclusión. Un lugar para alejarse del ruido del mundo y sentir la profunda contemplación del Profeta (s.a.w).",
+    "thawr_title": "Cueva de Thawr",
+    "thawr_desc": "El lugar de la lealtad y la confianza absoluta en Allah durante la Hégira. La estación donde el secreto de 'No te entristezcas; ciertamente Allah está con nosotros' quedó grabado en los corazones.",
+    "mualla_title": "Jannat al-Mu'alla",
+    "mualla_desc": "El lugar de descanso de nuestra madre Jadiya. Un lugar para recordar su infinita lealtad y apoyo al Profeta (s.a.w) durante sus días más difíciles.",
+    "nabawi_title": "La Mezquita del Profeta y Rawdah",
+    "nabawi_desc": "Entrando en Su (s.a.w) presencia. Una estación para bajar incluso el sonido de los pasos, enviando saludos con profunda reverencia. Un jardín de los jardines del Paraíso.",
+    "quba_title": "Mezquita de Quba",
+    "quba_desc": "La primera mezquita del Islam. Un lugar para encarnar la piedad y revivir la hermosa Sunnah del Profeta (s.a.w) que caminaba hasta aquí cada sábado para orar.",
+    "uhud_title": "Monte Uhud y Cementerio de los Mártires",
+    "uhud_desc": "'Uhud nos ama, y nosotros amamos Uhud'. Una estación para recordar el sacrificio de Hamza, la importancia de la obediencia, y para orar por los mártires.",
+    "baqi_title": "Jannat al-Baqi",
+    "baqi_desc": "El cementerio luminoso donde descansan decenas de miles de compañeros. Un lugar para darse cuenta de la naturaleza fugaz de este mundo y orar por la bendita generación."
   }
 }
