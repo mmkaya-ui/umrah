@@ -178,6 +178,7 @@
     "uhud_title": "Monte Uhud y Cementerio de los Mártires",
     "uhud_desc": "'Uhud nos ama, y nosotros amamos Uhud'. Una estación para recordar el sacrificio de Hamza, la importancia de la obediencia, y para orar por los mártires.",
     "baqi_title": "Jannat al-Baqi",
-    "baqi_desc": "El cementerio luminoso donde descansan decenas de miles de compañeros. Un lugar para darse cuenta de la naturaleza fugaz de este mundo y orar por la bendita generación."
+    "baqi_desc": "El cementerio luminoso donde descansan decenas de miles de compañeros. Un lugar para darse cuenta de la naturaleza fugaz de este mundo y orar por la bendita generación.",
+    "map_button": "Mostrar en el mapa 📍"
   }
 }

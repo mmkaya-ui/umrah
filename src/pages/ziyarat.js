@@ -29,6 +29,10 @@ export const ZiyaratPage = {
               <span data-i18n="ziyarat.hira_title"></span>
             </h2>
             <p class="text-sm text-muted" data-i18n="ziyarat.hira_desc" style="line-height: 1.6;"></p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Cave+of+Hira+Makkah" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="margin-top: var(--spacing-4);">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+              <span data-i18n="ziyarat.map_button"></span>
+            </a>
           </div>
           
           <!-- Thawr -->
@@ -38,6 +42,10 @@ export const ZiyaratPage = {
               <span data-i18n="ziyarat.thawr_title"></span>
             </h2>
             <p class="text-sm text-muted" data-i18n="ziyarat.thawr_desc" style="line-height: 1.6;"></p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Cave+of+Thawr+Makkah" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="margin-top: var(--spacing-4);">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+              <span data-i18n="ziyarat.map_button"></span>
+            </a>
           </div>
           
           <!-- Mualla -->
@@ -47,6 +55,10 @@ export const ZiyaratPage = {
               <span data-i18n="ziyarat.mualla_title"></span>
             </h2>
             <p class="text-sm text-muted" data-i18n="ziyarat.mualla_desc" style="line-height: 1.6;"></p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Jannat+al-Mu%27alla+Makkah" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="margin-top: var(--spacing-4);">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+              <span data-i18n="ziyarat.map_button"></span>
+            </a>
           </div>
         </div>
 
@@ -59,6 +71,10 @@ export const ZiyaratPage = {
               <span data-i18n="ziyarat.nabawi_title"></span>
             </h2>
             <p class="text-sm text-muted" data-i18n="ziyarat.nabawi_desc" style="line-height: 1.6;"></p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Al-Masjid+an-Nabawi+Madinah" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="margin-top: var(--spacing-4);">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+              <span data-i18n="ziyarat.map_button"></span>
+            </a>
           </div>
 
           <!-- Quba -->
@@ -68,6 +84,10 @@ export const ZiyaratPage = {
               <span data-i18n="ziyarat.quba_title"></span>
             </h2>
             <p class="text-sm text-muted" data-i18n="ziyarat.quba_desc" style="line-height: 1.6;"></p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Quba+Mosque+Madinah" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="margin-top: var(--spacing-4);">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+              <span data-i18n="ziyarat.map_button"></span>
+            </a>
           </div>
 
           <!-- Uhud -->
@@ -77,6 +97,10 @@ export const ZiyaratPage = {
               <span data-i18n="ziyarat.uhud_title"></span>
             </h2>
             <p class="text-sm text-muted" data-i18n="ziyarat.uhud_desc" style="line-height: 1.6;"></p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Mount+Uhud+Archers+Hill+Madinah" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="margin-top: var(--spacing-4);">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+              <span data-i18n="ziyarat.map_button"></span>
+            </a>
           </div>
 
           <!-- Baqi -->
@@ -86,6 +110,10 @@ export const ZiyaratPage = {
               <span data-i18n="ziyarat.baqi_title"></span>
             </h2>
             <p class="text-sm text-muted" data-i18n="ziyarat.baqi_desc" style="line-height: 1.6;"></p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Jannat+al-Baqi+Madinah" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="margin-top: var(--spacing-4);">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+              <span data-i18n="ziyarat.map_button"></span>
+            </a>
           </div>
         </div>
 
