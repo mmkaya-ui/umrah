@@ -144,6 +144,21 @@ const PreparationPage = {
           </ul>
       `;
 
+      if (i === 2) {
+        stepsHTML += `
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: var(--spacing-3); margin-bottom: var(--spacing-3);">
+            <div style="background: rgba(0,0,0,0.3); border-radius: var(--radius-md); padding: 10px; border: 1px solid rgba(212,175,55,0.2); text-align: center;">
+              <img src="/images/ihram_izar.png" alt="İzar Giyme Şekli" class="info-image" style="height: 160px; margin-bottom: 8px;" loading="lazy">
+              <span class="font-semibold text-xs text-gold">1. Alt Parça (İzar) Bağlanışı</span>
+            </div>
+            <div style="background: rgba(0,0,0,0.3); border-radius: var(--radius-md); padding: 10px; border: 1px solid rgba(212,175,55,0.2); text-align: center;">
+              <img src="/images/ihram_rida.png" alt="Rida Giyme Şekli" class="info-image" style="height: 160px; margin-bottom: 8px;" loading="lazy">
+              <span class="font-semibold text-xs text-gold">2. Üst Parça (Rida) Omuzlara Alınışı</span>
+            </div>
+          </div>
+        `;
+      }
+
       if (i === 4) {
         stepsHTML += `
           <div class="dua-card" role="region" aria-label="${i18n.t('duas.ihram_niyyah.title')}">
