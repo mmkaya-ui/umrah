@@ -5,11 +5,20 @@ export const ZiyaratPage = {
     return `
     <div class="page-container">
       <header class="app-header" role="banner">
-        <a href="/" class="text-muted" data-link="/" style="display: flex; align-items: center;" data-i18n-attr="aria-label:aria.go_back">
-          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 19l-7-7 7-7"></path></svg>
+        <a href="/" data-link="/" style="display: flex; align-items: center; gap: 8px; text-decoration: none; cursor: pointer;">
+          <img src="/logo.png" alt="Umrah Companion Logo" style="height: 38px; max-width: 180px; object-fit: contain;" />
         </a>
-        <div class="header-title" data-i18n="ziyarat.title"></div>
-        <div style="width:24px;"></div>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <select id="lang-switch" class="btn btn-gold" style="padding: 4px 8px; font-size: 14px; width: auto;" aria-label="${i18n.t('aria.lang_switch')}">
+            <option value="tr" ${i18n.currentLang === 'tr' ? 'selected' : ''}>TR</option>
+            <option value="en" ${i18n.currentLang === 'en' ? 'selected' : ''}>EN</option>
+            <option value="ar" ${i18n.currentLang === 'ar' ? 'selected' : ''}>AR</option>
+            <option value="de" ${i18n.currentLang === 'de' ? 'selected' : ''}>DE</option>
+            <option value="es" ${i18n.currentLang === 'es' ? 'selected' : ''}>ES</option>
+            <option value="ru" ${i18n.currentLang === 'ru' ? 'selected' : ''}>RU</option>
+            <option value="ko" ${i18n.currentLang === 'ko' ? 'selected' : ''}>KO</option>
+          </select>
+        </div>
       </header>
       
       <main style="padding-top: var(--spacing-4); padding-bottom: 80px;" role="main">
@@ -114,6 +123,23 @@ export const ZiyaratPage = {
               <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
               <span data-i18n="ziyarat.map_button"></span>
             </a>
+          </div>
+
+          <!-- Ravza & Nusuk Guide -->
+          <div class="card" style="background: rgba(13, 75, 60, 0.25); border: 1.5px solid var(--color-gold); margin-top: var(--spacing-4);">
+            <h2 class="text-gold font-semibold text-lg" style="margin-bottom: var(--spacing-2); display: flex; align-items: center; gap: 8px;">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
+              <span>Ravza-i Mutahhara Ziyareti ve Nusuk Randevusu</span>
+            </h2>
+            <p class="text-sm text-muted" style="line-height: 1.6; margin-bottom: 12px;">
+              Peygamber Efendimizin (s.a.v.) kabri ile minberi arasındaki bölge "Cennet Bahçelerinden bir bahçedir". Burayı ziyaret edebilmek için Suudi Arabistan'ın resmi <strong>Nusuk (Eatmarna)</strong> uygulamasından önceden randevu almanız gerekmektedir.
+            </p>
+            <ul style="padding-left: 18px; font-size: 0.85rem; color: var(--color-text-main); margin-bottom: 16px; display: flex; flex-direction: column; gap: 6px;">
+              <li>📌 Nusuk uygulamasını indirip pasaport ve vize numaranızla giriş yapın.</li>
+              <li>📌 "Pray in Rawdah" (Ravza'da Namaz) menüsünden uygun gün ve saat dilimini seçin.</li>
+              <li>📌 Randevu saatinizden 30 dakika önce Mescid-i Nebevi avlusundaki belirtilen kapıda hazır bulunun.</li>
+              <li>📌 Hücre-i Saadet önünden geçerken: <i>"Esselâmü aleyke yâ Resûlallâh"</i> diyerek edeple selam veriniz.</li>
+            </ul>
           </div>
         </div>
 

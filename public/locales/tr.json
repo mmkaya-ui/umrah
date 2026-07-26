@@ -10,7 +10,8 @@
     "makkah": "Mekke",
     "madinah": "Medine",
     "seasonal": "Mevsim",
-    "practical": "Pratik Bilgiler"
+    "practical": "Pratik Bilgiler",
+    "dhikr": "Zikirmatik"
   },
   "home": {
     "welcome_title": "Hoş Geldiniz, Allah'ın Misafiri",
@@ -180,5 +181,12 @@
     "baqi_title": "Cennet-ül Baki",
     "baqi_desc": "On binlerce sahabenin medfun olduğu nurlu kabristan. Dünyanın faniliğini idrak edip, İslam'ı bize ulaştıran o kutlu nesle dua etme yeri.",
     "map_button": "Haritada Göster 📍"
+  },
+  "dhikr": {
+    "title": "Dijital Zikirmatik",
+    "short_title": "Zikirmatik"
+  },
+  "packing": {
+    "title": "Umre Valiz Kontrol Listesi"
   }
 }

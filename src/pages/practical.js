@@ -3,11 +3,20 @@ export const PracticalPage = {
     return `
     <div class="page-container">
       <header class="app-header" role="banner">
-        <a href="/" class="text-muted" data-link="/" style="display: flex; align-items: center;" data-i18n-attr="aria-label:aria.go_back">
-          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 19l-7-7 7-7"></path></svg>
+        <a href="/" data-link="/" style="display: flex; align-items: center; gap: 8px; text-decoration: none; cursor: pointer;">
+          <img src="/logo.png" alt="Umrah Companion Logo" style="height: 38px; max-width: 180px; object-fit: contain;" />
         </a>
-        <div class="header-title" data-i18n="practical.title"></div>
-        <div style="width:24px;"></div>
+        <div style="display: flex; align-items: center; gap: 8px;">
+          <select id="lang-switch" class="btn btn-gold" style="padding: 4px 8px; font-size: 14px; width: auto;" aria-label="${i18n.t('aria.lang_switch')}">
+            <option value="tr" ${i18n.currentLang === 'tr' ? 'selected' : ''}>TR</option>
+            <option value="en" ${i18n.currentLang === 'en' ? 'selected' : ''}>EN</option>
+            <option value="ar" ${i18n.currentLang === 'ar' ? 'selected' : ''}>AR</option>
+            <option value="de" ${i18n.currentLang === 'de' ? 'selected' : ''}>DE</option>
+            <option value="es" ${i18n.currentLang === 'es' ? 'selected' : ''}>ES</option>
+            <option value="ru" ${i18n.currentLang === 'ru' ? 'selected' : ''}>RU</option>
+            <option value="ko" ${i18n.currentLang === 'ko' ? 'selected' : ''}>KO</option>
+          </select>
+        </div>
       </header>
       
       <main style="padding-top: var(--spacing-4);" role="main">

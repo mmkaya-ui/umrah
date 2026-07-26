@@ -10,7 +10,8 @@
     "makkah": "메카",
     "madinah": "메디나",
     "seasonal": "계절 정보",
-    "practical": "실용 정보"
+    "practical": "실용 정보",
+    "dhikr": "디지털 디크르"
   },
   "home": {
     "welcome_title": "알라의 손님, 환영합니다",
@@ -180,5 +181,12 @@
     "baqi_title": "잔나트 알 바키",
     "baqi_desc": "수만 명의 동반자들이 쉬고 있는 빛나는 묘지. 이 세상의 덧없음을 깨닫고 우리에게 이슬람을 가져다준 축복받은 세대를 위해 기도하는 곳입니다.",
     "map_button": "지도에서 보기 📍"
+  },
+  "dhikr": {
+    "title": "디지털 디크르 카운터",
+    "short_title": "디크르"
+  },
+  "packing": {
+    "title": "움라 짐 싸기 체크리스트"
   }
 }

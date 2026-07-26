@@ -10,7 +10,8 @@
     "makkah": "La Meca",
     "madinah": "Medina",
     "seasonal": "Temporada",
-    "practical": "Info Práctica"
+    "practical": "Info Práctica",
+    "dhikr": "Dhikr"
   },
   "home": {
     "welcome_title": "Bienvenido, Invitado de Allah",
@@ -180,5 +181,12 @@
     "baqi_title": "Jannat al-Baqi",
     "baqi_desc": "El cementerio luminoso donde descansan decenas de miles de compañeros. Un lugar para darse cuenta de la naturaleza fugaz de este mundo y orar por la bendita generación.",
     "map_button": "Mostrar en el mapa 📍"
+  },
+  "dhikr": {
+    "title": "Contador Digital de Dhikr",
+    "short_title": "Dhikr"
+  },
+  "packing": {
+    "title": "Lista de Equipaje para la Umrah"
   }
 }

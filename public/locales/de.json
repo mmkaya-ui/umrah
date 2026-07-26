@@ -10,7 +10,8 @@
     "makkah": "Mekka",
     "madinah": "Medina",
     "seasonal": "Jahreszeit",
-    "practical": "Praktische Infos"
+    "practical": "Praktische Infos",
+    "dhikr": "Dhikr-Zähler"
   },
   "home": {
     "welcome_title": "Willkommen, Gast Allahs",
@@ -180,5 +181,12 @@
     "baqi_title": "Dschannat al-Baqi",
     "baqi_desc": "Der leuchtende Friedhof, auf dem zehntausende Gefährten ruhen. Ein Ort, um die Vergänglichkeit dieser Welt zu erkennen und für die gesegnete Generation zu beten, die uns den Islam gebracht hat.",
     "map_button": "Auf Karte anzeigen 📍"
+  },
+  "dhikr": {
+    "title": "Digitaler Dhikr-Zähler",
+    "short_title": "Dhikr"
+  },
+  "packing": {
+    "title": "Packliste für Umrah"
   }
 }

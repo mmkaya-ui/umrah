@@ -10,7 +10,8 @@
     "makkah": "Makkah",
     "madinah": "Madinah",
     "seasonal": "Season",
-    "practical": "Practical Info"
+    "practical": "Practical Info",
+    "dhikr": "Dhikr Counter"
   },
   "home": {
     "welcome_title": "Welcome, Guest of Allah",
@@ -180,5 +181,12 @@
     "baqi_title": "Jannat al-Baqi",
     "baqi_desc": "The luminous cemetery where tens of thousands of companions rest. A place to realize the fleeting nature of this world and pray for the blessed generation who brought Islam to us.",
     "map_button": "Show on Map 📍"
+  },
+  "dhikr": {
+    "title": "Digital Dhikr Counter",
+    "short_title": "Dhikr"
+  },
+  "packing": {
+    "title": "Umrah Packing Checklist"
   }
 }
