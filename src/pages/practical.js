@@ -25,19 +25,7 @@ export const PracticalPage = {
           </a>
         </div>
         
-        <!-- Dining Section -->
-        <div class="card" style="margin-top: var(--spacing-4);">
-          <h2 class="font-semibold text-xl text-gold" style="margin-bottom: var(--spacing-2); display: flex; align-items: center; gap: 8px;">
-            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2v10z"></path></svg>
-            <span data-i18n="practical.dining_title"></span>
-          </h2>
-          <p class="text-sm text-muted" style="margin-bottom: var(--spacing-4);" data-i18n="practical.dining_desc"></p>
-          
-          <a href="https://www.google.com/maps/search/Abraj+Al+Bait+Food+Court/@21.4184643,39.8253163,17z" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="width: 100%;">
-             <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-             <span data-i18n="practical.dining_map"></span>
-          </a>
-        </div>
+
 
         <!-- Ziyarat Section -->
         <div class="card" style="margin-top: var(--spacing-4); margin-bottom: 80px;">
