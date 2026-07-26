@@ -36,12 +36,13 @@
   color: var(--color-gold);
 }
 
-/* Bottom Navigation (Mobile First) */
 .bottom-nav {
   position: fixed;
   bottom: 0;
-  left: 0;
-  right: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 800px;
   background-color: rgba(20, 27, 45, 0.9);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -78,27 +79,3 @@
   font-weight: 500;
 }
 
-/* Desktop Sidebar (Optional enhancement for larger screens) */
-@media (min-width: 1024px) {
-  .bottom-nav {
-    display: none;
-  }
-  
-  #app {
-    flex-direction: row;
-  }
-  
-  .desktop-sidebar {
-    width: 250px;
-    background-color: var(--color-surface);
-    border-right: 1px solid rgba(255, 255, 255, 0.05);
-    height: 100vh;
-    position: sticky;
-    top: 0;
-    /* Needs more styling for desktop later */
-  }
-  
-  .page-container {
-    padding-bottom: var(--spacing-8);
-  }
-}

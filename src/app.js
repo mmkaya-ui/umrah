@@ -4,6 +4,7 @@ import { Storage } from './utils/storage.js';
 import { TawafPage } from './pages/tawaf.js';
 import { SaiPage } from './pages/sai.js';
 import { PracticalPage } from './pages/practical.js';
+import { registerSW } from 'virtual:pwa-register';
 
 /* ──────────────────────────── Font Scaling ──────────────────────────── */
 const FONT_SCALES = ['normal', 'large', 'largest'];
@@ -211,6 +212,17 @@ async function bootstrap() {
   // On language change, re-render whole page
   window.addEventListener('languageChanged', () => {
     router.handleRoute(location.pathname);
+  });
+  
+  // Register Service Worker for Offline PWA
+  const updateSW = registerSW({
+    onNeedRefresh() {
+      // Could show a toast here in the future
+      console.log('App update available');
+    },
+    onOfflineReady() {
+      console.log('App is ready to work offline');
+    },
   });
 }
 

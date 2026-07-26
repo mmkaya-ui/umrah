@@ -11,6 +11,7 @@ html {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -21,6 +22,7 @@ body {
   padding-right: var(--sar);
   touch-action: manipulation;
   overflow-x: hidden;
+  overscroll-behavior-y: none;
 }
 
 a {
