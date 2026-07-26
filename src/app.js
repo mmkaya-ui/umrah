@@ -37,7 +37,7 @@ function cycleFontScale() {
 function getBottomNav(currentPath) {
   const items = [
     { href: '/',                icon: '<path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>',                   i18nKey: 'nav.home',      ariaKey: 'aria.nav_home' },
-    { href: '/umrah/preparation', icon: '<path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>', i18nKey: 'nav.guide',     ariaKey: 'aria.nav_guide' },
+    { href: '/umrah/preparation', icon: '<path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>', i18nKey: 'preparation.title', ariaKey: 'aria.nav_guide' },
     { href: '/umrah/tawaf',       icon: '<path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>',         i18nKey: 'tawaf.title',   ariaKey: 'aria.nav_tawaf' },
     { href: '/umrah/sai',         icon: '<path stroke-linecap="round" stroke-linejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7"></path>',                                                                                            i18nKey: 'sai.title',     ariaKey: 'aria.nav_sai' },
     { href: '/umrah/practical',   icon: '<path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>',                                                            i18nKey: 'nav.practical', ariaKey: 'aria.nav_practical' },
@@ -67,14 +67,7 @@ const HomePage = {
     <div class="page-container">
       <header class="app-header" role="banner">
         <div style="display: flex; align-items: center; gap: 8px;">
-          <svg width="26" height="26" viewBox="0 0 512 512" fill="none">
-            <path d="M420 256C420 346.573 346.573 420 256 420C215.112 420 177.788 405.029 149.07 380.125C215.86 376.128 269 321.05 269 253C269 184.95 215.86 129.872 149.07 125.875C177.788 100.971 215.112 86 256 86C346.573 86 420 159.427 420 256Z" fill="#D4AF37"/>
-            <rect x="220" y="200" width="100" height="110" rx="10" fill="#D4AF37"/>
-            <rect x="225" y="205" width="90" height="100" rx="8" fill="#0A0F1A"/>
-            <path d="M225 225H315" stroke="#D4AF37" stroke-width="8"/>
-            <rect x="255" y="260" width="30" height="45" rx="4" fill="#D4AF37"/>
-          </svg>
-          <span style="font-weight: 700; color: var(--color-gold); font-size: 1.1rem;">Umrah Companion</span>
+          <img src="/logo.png" alt="Umrah Companion Logo" style="height: 38px; max-width: 180px; object-fit: contain;" />
         </div>
         <div style="display: flex; align-items: center; gap: 8px;">
           <button id="font-scale-btn" class="btn btn-outline" style="width: auto; padding: 4px 10px; font-size: 14px; font-weight: 700; min-width: 36px;" aria-label="${i18n.t('aria.font_scale')}" title="${i18n.t('aria.font_scale')}">
