@@ -45,7 +45,7 @@
     "step4_desc": "Namazdan sonra veya araca binildiğinde umre için niyet edilir ve telbiye getirilir. İşte bu andan itibaren ihram yasakları başlar.",
     "step4_bullets": [
       "Niyet: 'Allah'ım, senin rızan için umre yapmak istiyorum, onu bana kolaylaştır ve benden kabul eyle.'",
-      "Telbiye Duası: 'Lebbeyk Allâhümme lebbeyk, lebbeyke lâ şerîke leke lebbeyk...' (Erkekler yüksek sesle, kadınlar kendi duyacakları sesle)"
+      "Telbiye Duası: 'Lebbeyk Allâhümme lebbeyk, lebbeyke lâ şerîke leke lebbeyk, innel-hamde ven-ni'mete leke vel-mülk, lâ şerîke lek.' (Erkekler yüksek sesle, kadınlar kendi duyacakları sesle söylerler)."
     ],
     "step5_title": "İhram Yasaklarına Dikkat Etmek",
     "step5_desc": "İhrama girdikten sonra umre bitene (saç kesilene) kadar dikkat edilmesi gereken yasaklar başlar.",
@@ -81,6 +81,12 @@
       "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
       "transliteration": "Rabbenâ âtinâ fi'd-dünyâ haseneten ve fi'l-âhirati haseneten ve kınâ azâben-nâr",
       "translation": "Rabbimiz! Bize dünyada da iyilik ver, ahirette de iyilik ver ve bizi ateş azabından koru."
+    },
+    "talbiyah": {
+      "title": "Telbiye Duası (Tam Metin)",
+      "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لاَ شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لاَ شَرِيكَ لَكَ",
+      "transliteration": "Lebbeyk Allâhümme lebbeyk, lebbeyke lâ şerîke leke lebbeyk, innel-hamde ven-ni'mete leke vel-mülk, lâ şerîke lek.",
+      "translation": "Buyur Allah'ım buyur! Buyur, senin hiçbir ortağın yoktur, buyur! Şüphesiz hamd de, nimet de, mülk de senindir. Senin hiçbir ortağın yoktur."
     }
   },
   "tawaf": {

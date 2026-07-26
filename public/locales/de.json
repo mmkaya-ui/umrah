@@ -45,7 +45,7 @@
     "step4_desc": "Nach dem Gebet wird die Absicht gefasst und die Talbiyah gesprochen. Ab jetzt gelten die Ihram-Verbote.",
     "step4_bullets": [
       "Niyyah: 'O Allah, ich beabsichtige die Umrah zu vollziehen, mache sie mir leicht und nimm sie von mir an.'",
-      "Talbiyah: 'Labbayk Allahumma labbayk...' (Männer laut, Frauen leise)"
+      "Talbiyah: 'Labbayk Allahumma labbayk, labbayka la sharika laka labbayk, innal-hamda wan-ni'mata laka wal-mulk, la sharika lak.' (Männer laut, Frauen leise)."
     ],
     "step5_title": "Ihram-Verbote beachten",
     "step5_desc": "Diese Verbote gelten, bis am Ende der Umrah die Haare geschnitten werden.",
@@ -81,6 +81,12 @@
       "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
       "transliteration": "Rabbena atina fid-dunya hasanaten wa fil-akhirati hasanaten wa qina 'adhaban-nar",
       "translation": "Unser Herr! Gib uns im Diesseits Gutes und im Jenseits Gutes und bewahre uns vor der Strafe des Höllenfeuers."
+    },
+    "talbiyah": {
+      "title": "Vollständiges Talbiyah-Gebet",
+      "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لاَ شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لاَ شَرِيكَ لَكَ",
+      "transliteration": "Labbayk Allahumma labbayk, labbayka la sharika laka labbayk, innal-hamda wan-ni'mata laka wal-mulk, la sharika lak.",
+      "translation": "Hier bin ich, o Allah, hier bin ich. Hier bin ich, Du hast keinen Teilhaber, hier bin ich. Gewiss, alles Lob, alle Gunst und die Herrschaft gehören Dir. Du hast keinen Teilhaber."
     }
   },
   "tawaf": {

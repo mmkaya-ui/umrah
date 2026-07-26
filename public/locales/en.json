@@ -45,7 +45,7 @@
     "step4_desc": "After the prayer or upon boarding your vehicle, make the intention and recite the Talbiyah. Ihram restrictions begin at this exact moment.",
     "step4_bullets": [
       "Niyyah: 'O Allah, I intend to perform Umrah, so make it easy for me and accept it from me.'",
-      "Talbiyah: 'Labbayk Allahumma labbayk, labbayka la sharika laka labbayk...' (Men say it loudly, women quietly)"
+      "Talbiyah: 'Labbayk Allahumma labbayk, labbayka la sharika laka labbayk, innal-hamda wan-ni'mata laka wal-mulk, la sharika lak.' (Men recite loudly, women quietly)."
     ],
     "step5_title": "Observing Ihram Restrictions",
     "step5_desc": "Once in Ihram, these restrictions apply until you cut your hair at the end of Umrah.",
@@ -81,6 +81,12 @@
       "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
       "transliteration": "Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan wa qina 'adhaban-nar",
       "translation": "Our Lord, give us in this world good and in the Hereafter good and protect us from the punishment of the Fire."
+    },
+    "talbiyah": {
+      "title": "The Full Talbiyah Prayer",
+      "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لاَ شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لاَ شَرِيكَ لَكَ",
+      "transliteration": "Labbayk Allahumma labbayk, labbayka la sharika laka labbayk, innal-hamda wan-ni'mata laka wal-mulk, la sharika lak.",
+      "translation": "Here I am O Allah, here I am. Here I am, You have no partner, here I am. Indeed all praise, grace, and sovereignty belong to You. You have no partner."
     }
   },
   "tawaf": {

@@ -182,9 +182,17 @@ const PreparationPage = {
       if (i === 4) {
         stepsHTML += `
           <div class="dua-card" role="region" aria-label="${i18n.t('duas.ihram_niyyah.title')}">
+            <h4 class="font-semibold text-gold" style="margin-bottom: 8px;" data-i18n="duas.ihram_niyyah.title"></h4>
             <div class="arabic" data-i18n="duas.ihram_niyyah.arabic"></div>
             <div class="transliteration" data-i18n="duas.ihram_niyyah.transliteration"></div>
             <div class="meaning" data-i18n="duas.ihram_niyyah.translation"></div>
+          </div>
+
+          <div class="dua-card" role="region" aria-label="${i18n.t('duas.talbiyah.title')}">
+            <h4 class="font-semibold text-gold" style="margin-bottom: 8px;" data-i18n="duas.talbiyah.title"></h4>
+            <div class="arabic" data-i18n="duas.talbiyah.arabic"></div>
+            <div class="transliteration" data-i18n="duas.talbiyah.transliteration"></div>
+            <div class="meaning" data-i18n="duas.talbiyah.translation"></div>
           </div>
         `;
       }

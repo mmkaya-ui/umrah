@@ -45,7 +45,7 @@
     "step4_desc": "Luego se declara la intención y la Talbiyah. Las restricciones comienzan aquí.",
     "step4_bullets": [
       "Intención: 'Oh Allah, tengo la intención de hacer la Umrah, facilítamela y acéptala.'",
-      "Talbiyah: 'Labbayk Allahumma labbayk...' (Hombres en voz alta, mujeres en voz baja)"
+      "Talbiyah: 'Labbayk Allahumma labbayk, labbayka la sharika laka labbayk, innal-hamda wan-ni'mata laka wal-mulk, la sharika lak.' (Hombres en voz alta, mujeres en voz baja)."
     ],
     "step5_title": "Restricciones del Ihram",
     "step5_desc": "Evite estas acciones hasta cortarse el pelo al final de la Umrah.",
@@ -81,6 +81,12 @@
       "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
       "transliteration": "Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan wa qina 'adhaban-nar",
       "translation": "¡Señor nuestro! Danos lo bueno en este mundo y lo bueno en el Más Allá, y sálvanos del castigo del Fuego."
+    },
+    "talbiyah": {
+      "title": "Oración Completa de la Talbiyah",
+      "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لاَ شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لاَ شَرِيكَ لَكَ",
+      "transliteration": "Labbayk Allahumma labbayk, labbayka la sharika laka labbayk, innal-hamda wan-ni'mata laka wal-mulk, la sharika lak.",
+      "translation": "Aquí estoy, oh Allah, aquí estoy. Aquí estoy, no tienes asociado, aquí estoy. Ciertamente toda alabanza, gracia y soberanía Te pertenecen. No tienes asociado."
     }
   },
   "tawaf": {
