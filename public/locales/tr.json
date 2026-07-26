@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "lang": "tr",
+    "dir": "ltr",
+    "name": "Türkçe"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "guide": "Umre Rehberi",
+    "makkah": "Mekke",
+    "madinah": "Medine",
+    "seasonal": "Mevsim",
+    "practical": "Pratik Bilgiler"
+  },
+  "home": {
+    "welcome_title": "Hoş Geldiniz, Allah'ın Misafiri",
+    "welcome_subtitle": "Rabbimiz yolculuğunuzu mübarek, niyetinizi halis kılsın. Kutsal topraklardaki bu güzel yürüyüşünüzde size eşlik etmekten mutluluk duyuyoruz.",
+    "start_button": "Umreye Hazırlıkla Başlayalım",
+    "tefekkur_title": "Niyet ve İhlas",
+    "tefekkur_text": "Yola çıkmadan önce kalbimizi dinleyelim, niyetimizi tazeleyelim. Yalnızca Allah'ın rızasını umarak yola çıkan, O'nun en kıymetli misafiri olur. Bütün yorgunluklar silinir, geriye sadece huzur kalır."
+  },
+  "preparation": {
+    "title": "İhram Hazırlığı",
+    "step1_title": "Maddi ve Manevi Temizlik",
+    "step1_desc": "İhrama girmeden önce, tıpkı namaza durur gibi maddi ve manevi kirlerden arınmak ne güzel bir sünnettir. Suyun bedeni temizlediği gibi, tövbe de kalbi yıkar.",
+    "step1_bullets": [
+      "Gusül abdesti almak sünnettir.",
+      "Tırnakları kesmek, genel vücut temizliğini yapmak.",
+      "Güzel koku sürmek (Erkekler için - ihrama girmeden hemen önce vücuda sürülebilir, elbiseye sürülmez)."
+    ],
+    "mark_complete": "Bu adımı tamamladım elhamdülillah"
+  },
+  "duas": {
+    "ihram_niyyah": {
+      "title": "İhram Niyeti",
+      "arabic": "لَبَّيْكَ اللَّهُمَّ عُمْرَةً",
+      "transliteration": "Lebbeyk Allâhümme 'umraten",
+      "translation": "Buyur Allah'ım, umre yapmaya niyet ettim."
+    }
+  },
+  "common": {
+    "copy": "Kopyala",
+    "copied": "Kopyalandı!"
+  }
+}

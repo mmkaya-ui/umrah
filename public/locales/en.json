@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "lang": "en",
+    "dir": "ltr",
+    "name": "English"
+  },
+  "nav": {
+    "home": "Home",
+    "guide": "Umrah Guide",
+    "makkah": "Makkah",
+    "madinah": "Madinah",
+    "seasonal": "Season",
+    "practical": "Practical Info"
+  },
+  "home": {
+    "welcome_title": "Welcome, Guest of Allah",
+    "welcome_subtitle": "May our Lord bless your journey and purify your intentions. We are delighted to accompany you on this beautiful walk in the sacred lands.",
+    "start_button": "Let's Begin with Preparation",
+    "tefekkur_title": "Intention and Sincerity",
+    "tefekkur_text": "Before we set out, let us listen to our hearts and renew our intentions. Whoever sets out seeking only the pleasure of Allah becomes His most precious guest. All weariness fades, leaving only peace."
+  },
+  "preparation": {
+    "title": "Ihram Preparation",
+    "step1_title": "Physical and Spiritual Purity",
+    "step1_desc": "Before entering Ihram, it is a beautiful Sunnah to cleanse ourselves of physical and spiritual impurities, just as we stand for prayer. As water cleanses the body, repentance washes the heart.",
+    "step1_bullets": [
+      "Performing Ghusl (ritual bath) is a Sunnah.",
+      "Trimming nails and performing general body purification.",
+      "Applying pleasant perfume (For men - can be applied to the body right before entering Ihram, but not on the garments)."
+    ],
+    "mark_complete": "Alhamdulillah, I have completed this step"
+  },
+  "duas": {
+    "ihram_niyyah": {
+      "title": "Intention for Ihram",
+      "arabic": "لَبَّيْكَ اللَّهُمَّ عُمْرَةً",
+      "transliteration": "Labbayk Allahumma 'umratan",
+      "translation": "Here I am, O Allah, intending to perform Umrah."
+    }
+  },
+  "common": {
+    "copy": "Copy",
+    "copied": "Copied!"
+  }
+}
