@@ -147,15 +147,34 @@ const PreparationPage = {
 
       if (i === 2) {
         stepsHTML += `
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: var(--spacing-3); margin-bottom: var(--spacing-3);">
-            <div style="background: rgba(0,0,0,0.3); border-radius: var(--radius-md); padding: 10px; border: 1px solid rgba(212,175,55,0.2); text-align: center;">
-              <img src="/images/ihram_izar.png" alt="İzar Giyme Şekli" class="info-image" style="height: 160px; margin-bottom: 8px;" loading="lazy">
-              <span class="font-semibold text-xs text-gold">1. Alt Parça (İzar) Bağlanışı</span>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; margin-top: var(--spacing-4); margin-bottom: var(--spacing-4);">
+            <div class="ihram-guide-card" data-zoom-img="/images/ihram_izar.png">
+              <img src="/images/ihram_izar.png" alt="İzar Bağlama Rehberi" class="ihram-guide-img" loading="lazy">
+              <div style="display: flex; align-items: center; justify-content: center; gap: 6px;">
+                <svg width="14" height="14" fill="none" stroke="#C9A84C" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"></path></svg>
+                <span class="font-semibold text-xs text-gold">1. Alt Parça (İzar) Bağlanışı (Büyütmek için tıkla)</span>
+              </div>
             </div>
-            <div style="background: rgba(0,0,0,0.3); border-radius: var(--radius-md); padding: 10px; border: 1px solid rgba(212,175,55,0.2); text-align: center;">
-              <img src="/images/ihram_rida.png" alt="Rida Giyme Şekli" class="info-image" style="height: 160px; margin-bottom: 8px;" loading="lazy">
-              <span class="font-semibold text-xs text-gold">2. Üst Parça (Rida) Omuzlara Alınışı</span>
+            <div class="ihram-guide-card" data-zoom-img="/images/ihram_rida.png">
+              <img src="/images/ihram_rida.png" alt="Rida Giyme Rehberi" class="ihram-guide-img" loading="lazy">
+              <div style="display: flex; align-items: center; justify-content: center; gap: 6px;">
+                <svg width="14" height="14" fill="none" stroke="#C9A84C" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m3-3H7"></path></svg>
+                <span class="font-semibold text-xs text-gold">2. Üst Parça (Rida) Omuzlara Alınışı (Büyütmek için tıkla)</span>
+              </div>
             </div>
+          </div>
+
+          <!-- Püf Noktaları ve Taktikler Kutusu -->
+          <div style="background: rgba(201, 168, 76, 0.08); border: 1px dashed var(--color-gold); border-radius: var(--radius-lg); padding: var(--spacing-4); margin-bottom: var(--spacing-4);">
+            <div style="color: var(--color-gold); font-weight: 700; display: flex; align-items: center; gap: 8px; margin-bottom: 10px; font-size: 0.95rem;">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+              <span>İhramın Düşmemesi ve Rahatlık İçin Püf Noktaları</span>
+            </div>
+            <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.85rem; color: var(--color-text-main); display: flex; flex-direction: column; gap: 8px;">
+              <li><strong>📌 Üst Kısmı Kemer Gibi Kıvırın:</strong> İzar'ı belinizde bağladıktan sonra üst kısmını dışarıya doğru 2-3 defa rulo yaparak kıvırın. Bu işlem havluyu kilitler ve kaymasını engeller.</li>
+              <li><strong>📌 İhram Kemeri Kullanın:</strong> Cırt cırtlı ve cepli ihram kemerleri hem para/telefon taşımanızı sağlar hem de İzar'ı ekstra emniyete alır.</li>
+              <li><strong>📌 Iztıba (Sağ Omuz):</strong> Sadece Kabe tavafı yaparken (7 şavt) sağ omuz açık bırakılır. Tavaf bittiğinde namaz kılarken ve Sa'y alanında sağ omuz kapatılır.</li>
+            </ul>
           </div>
         `;
       }
@@ -254,7 +273,28 @@ async function bootstrap() {
     if (e.target.id === 'font-scale-btn' || e.target.closest('#font-scale-btn')) {
       cycleFontScale();
     }
+
+    // Image Zoom Modal Trigger
+    const zoomTarget = e.target.closest('[data-zoom-img]') || (e.target.classList.contains('info-image') ? e.target : null);
+    if (zoomTarget) {
+      const imgSrc = zoomTarget.getAttribute('data-zoom-img') || zoomTarget.getAttribute('src');
+      if (imgSrc) {
+        openImageModal(imgSrc);
+      }
+    }
   });
+
+  function openImageModal(src) {
+    let overlay = document.getElementById('global-img-modal');
+    if (!overlay) {
+      overlay = document.createElement('div');
+      overlay.id = 'global-img-modal';
+      overlay.className = 'img-modal-overlay';
+      overlay.onclick = () => overlay.remove();
+      document.body.appendChild(overlay);
+    }
+    overlay.innerHTML = `<img src="${src}" class="img-modal-content" alt="Büyütülmüş Görsel" /><span style="color: white; margin-top: 14px; font-size: 14px; font-weight: 500;">Kapatmak için ekrana dokunun</span>`;
+  }
 
   router.handleRoute(location.pathname);
   
