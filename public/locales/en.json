@@ -62,7 +62,17 @@
     "tips_title": "Practical Tips to Secure Your Ihram",
     "tip_1": "📌 Roll the Top Edge: After wrapping the Izar at your waist, roll the top edge outwards 2-3 times like a belt. This locks the towel securely.",
     "tip_2": "📌 Use an Ihram Belt: Zipped Ihram belts carry money/phone while keeping the Izar firmly secured.",
-    "tip_3": "📌 Iztiba Rule: Expose your right shoulder ONLY during Tawaf (7 laps). Cover it during prayer and Sa'y."
+    "tip_3": "📌 Iztiba Rule: Expose your right shoulder ONLY during Tawaf (7 laps). Cover it during prayer and Sa'y.",
+    "izar_caption": "1. Lower Garment (Izar) Wrapping (Click to enlarge)",
+    "rida_caption": "2. Upper Garment (Rida) Drape (Click to enlarge)",
+    "listen_talbiyah": "🔊 Listen to Talbiyah Recitation",
+    "packing_subtitle": "Check the essential items to pack before departing for the Holy Lands:",
+    "pack_item_1": "⚪ 2-Piece Ihram Towel (For Men) & Unstitched Sandals",
+    "pack_item_2": "⚪ Ihram Belt (Pockets/Velcro) & Waist Bag",
+    "pack_item_3": "⚪ Unscented Soap & Shampoo & Anti-chafing Cream",
+    "pack_item_4": "⚪ Pocket Quran, Supplication Book / Dhikr Counter",
+    "pack_item_5": "⚪ Regular Medications, Throat Lozenges, Muscle Ointment",
+    "pack_item_6": "⚪ Passport, Visa Copy, Phone & Powerbank"
   },
   "duas": {
     "ihram_niyyah": {
@@ -144,7 +154,8 @@
     "haircut_map": "View Barbers on Map",
     "dining_title": "Dining Guide",
     "dining_desc": "Around Masjid al-Haram, especially in the Abraj Al Bait (Clock Tower) and Jabal Omar complexes, there are many clean and reliable food courts. If you want to try a local favorite, Al Baik is a great option.",
-    "dining_map": "View Dining Areas on Map"
+    "dining_map": "View Dining Areas on Map",
+    "ziyarat_card_desc": "Explore holy visitation sites in Makkah al-Mukarramah and Madinah al-Munawwarah with historical context."
   },
   "common": {
     "copy": "Copy",
@@ -180,11 +191,29 @@
     "uhud_desc": "'Uhud loves us, and we love Uhud.' A station to remember the sacrifice of Hamza, the importance of obedience, and to pray for the martyrs with deep love.",
     "baqi_title": "Jannat al-Baqi",
     "baqi_desc": "The luminous cemetery where tens of thousands of companions rest. A place to realize the fleeting nature of this world and pray for the blessed generation who brought Islam to us.",
-    "map_button": "Show on Map 📍"
+    "map_button": "Show on Map 📍",
+    "rawdah_title": "Rawdah Al-Rasool Visit & Nusuk Appointment",
+    "rawdah_desc": "The area between the tomb of the Prophet (pbuh) and his pulpit is 'one of the Gardens of Paradise'. To visit this holy site, a prior appointment must be booked via Saudi Arabia's official Nusuk App.",
+    "rawdah_b1": "📌 Download the Nusuk app and log in with your passport and visa details.",
+    "rawdah_b2": "📌 Select 'Pray in Rawdah' and choose an available time slot.",
+    "rawdah_b3": "📌 Arrive at the assigned courtyard gate 30 minutes before your appointment.",
+    "rawdah_b4": "📌 As you pass the Sacred Chamber, send greetings reverently: 'As-salamu 'alayka ya Rasool Allah'."
   },
   "dhikr": {
     "title": "Digital Dhikr Counter",
-    "short_title": "Dhikr"
+    "short_title": "Dhikr",
+    "select_label": "Select Dhikr:",
+    "subhanallah_name": "Subhanallah (33)",
+    "alhamdulillah_name": "Alhamdulillah (33)",
+    "allahuakbar_name": "Allahu Akbar (33)",
+    "lailahaillallah_name": "La ilaha illallah",
+    "salavat_name": "Salawat Sharif",
+    "custom_name": "Custom Dhikr",
+    "subhanallah_meaning": "\"Glory be to Allah, far removed from all imperfections.\"",
+    "target_prefix": "Target: ",
+    "tap_button": "TAP TO RECITATE",
+    "reset_button": "Reset Counter",
+    "complete_msg": "🎉 Alhamdulillah! Dhikr Completed."
   },
   "packing": {
     "title": "Umrah Packing Checklist"

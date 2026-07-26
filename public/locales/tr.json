@@ -62,7 +62,17 @@
     "tips_title": "İhramın Düşmemesi ve Rahatlık İçin Püf Noktaları",
     "tip_1": "📌 Üst Kısmı Kemer Gibi Kıvırın: İzar'ı belinizde bağladıktan sonra üst kısmını dışarıya doğru 2-3 defa rulo yaparak kıvırın. Bu işlem havluyu kilitler ve kaymasını engeller.",
     "tip_2": "📌 İhram Kemeri Kullanın: Cırt cırtlı ve cepli ihram kemerleri hem para/telefon taşımanızı sağlar hem de İzar'ı ekstra emniyete alır.",
-    "tip_3": "📌 Iztıba (Sağ Omuz): Sadece Kabe tavafı yaparken (7 şavt) sağ omuz açık bırakılır. Tavaf bittiğinde namaz kılarken ve Sa'y alanında sağ omuz kapatılır."
+    "tip_3": "📌 Iztıba (Sağ Omuz): Sadece Kabe tavafı yaparken (7 şavt) sağ omuz açık bırakılır. Tavaf bittiğinde namaz kılarken ve Sa'y alanında sağ omuz kapatılır.",
+    "izar_caption": "1. Alt Parça (İzar) Bağlanışı (Büyütmek için tıkla)",
+    "rida_caption": "2. Üst Parça (Rida) Omuzlara Alınışı (Büyütmek için tıkla)",
+    "listen_talbiyah": "🔊 Telbiye Duasını Sesli Dinle",
+    "packing_subtitle": "Kutsal beldelere yola çıkmadan önce yanınıza almanız gereken kritik eşyaları kontrol ediniz:",
+    "pack_item_1": "⚪ 2 Parça İhram Havlusu (Erkekler için) & Dikişsiz Sandalet",
+    "pack_item_2": "⚪ İhram Kemeri (Cepli/Cırt cırtlı) & Bel Çantası",
+    "pack_item_3": "⚪ Kokusuz Sabun & Şampuan & Pişik Kremi/Pudra",
+    "pack_item_4": "⚪ Cep Kur'an-ı Kerim, Cevşen / Zikirmatik",
+    "pack_item_5": "⚪ Düzenli İlaçlar, Boğaz Pastili, Kas Gevşetici",
+    "pack_item_6": "⚪ Pasaport, Vize Çıktısı, Telefon & Powerbank"
   },
   "duas": {
     "ihram_niyyah": {
@@ -144,7 +154,8 @@
     "haircut_map": "Berberleri Haritada Gör",
     "dining_title": "Yeme - İçme Rehberi",
     "dining_desc": "Mescid-i Haram etrafında, özellikle Abraj Al Bait (Saat Kulesi) ve Jabal Omar bölgelerinde temiz ve güvenilir yemek alanları mevcuttur. Yerel lezzetleri tatmak isterseniz Al Baik iyi bir seçenektir.",
-    "dining_map": "Yemek Alanlarını Haritada Gör"
+    "dining_map": "Yemek Alanlarını Haritada Gör",
+    "ziyarat_card_desc": "Mekke-i Mükerreme ve Medine-i Münevvere'deki kutsal ziyaret yerlerini, tarihi ve ruhani önemleriyle keşfedin."
   },
   "common": {
     "copy": "Kopyala",
@@ -180,11 +191,29 @@
     "uhud_desc": "'Uhud bizi sever, biz Uhud'u severiz.' Hz. Hamza'nın fedakarlığını ve emre sadakatin önemini hatırlama, şehitlere sevgi ve minnetle dua etme makamı.",
     "baqi_title": "Cennet-ül Baki",
     "baqi_desc": "On binlerce sahabenin medfun olduğu nurlu kabristan. Dünyanın faniliğini idrak edip, İslam'ı bize ulaştıran o kutlu nesle dua etme yeri.",
-    "map_button": "Haritada Göster 📍"
+    "map_button": "Haritada Göster 📍",
+    "rawdah_title": "Ravza-i Mutahhara Ziyareti ve Nusuk Randevusu",
+    "rawdah_desc": "Peygamber Efendimizin (s.a.v.) kabri ile minberi arasındaki bölge \"Cennet Bahçelerinden bir bahçedir\". Burayı ziyaret edebilmek için Suudi Arabistan'ın resmi Nusuk (Eatmarna) uygulamasından önceden randevu almanız gerekmektedir.",
+    "rawdah_b1": "📌 Nusuk uygulamasını indirip pasaport ve vize numaranızla giriş yapın.",
+    "rawdah_b2": "📌 \"Pray in Rawdah\" (Ravza'da Namaz) menüsünden uygun gün ve saat dilimini seçin.",
+    "rawdah_b3": "📌 Randevu saatinizden 30 dakika önce Mescid-i Nebevi avlusundaki belirtilen kapıda hazır bulunun.",
+    "rawdah_b4": "📌 Hücre-i Saadet önünden geçerken: \"Esselâmü aleyke yâ Resûlallâh\" diyerek edeple selam veriniz."
   },
   "dhikr": {
     "title": "Dijital Zikirmatik",
-    "short_title": "Zikirmatik"
+    "short_title": "Zikirmatik",
+    "select_label": "Zikir Seçimi:",
+    "subhanallah_name": "Sübhânallah (33)",
+    "alhamdulillah_name": "Elhamdülillâh (33)",
+    "allahuakbar_name": "Allâhuekber (33)",
+    "lailahaillallah_name": "Lâ ilâhe illallâh",
+    "salavat_name": "Salavat-ı Şerife",
+    "custom_name": "Özel Zikir",
+    "subhanallah_meaning": "\"Allah noksan sıfatlardan münezzehtir.\"",
+    "target_prefix": "Hedef: ",
+    "tap_button": "ZİKİR ÇEK (DOKUN)",
+    "reset_button": "Sıfırla",
+    "complete_msg": "🎉 Elhamdülillah! Zikir Tamamlandı."
   },
   "packing": {
     "title": "Umre Valiz Kontrol Listesi"

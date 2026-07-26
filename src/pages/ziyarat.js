@@ -129,16 +129,15 @@ export const ZiyaratPage = {
           <div class="card" style="background: rgba(13, 75, 60, 0.25); border: 1.5px solid var(--color-gold); margin-top: var(--spacing-4);">
             <h2 class="text-gold font-semibold text-lg" style="margin-bottom: var(--spacing-2); display: flex; align-items: center; gap: 8px;">
               <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>
-              <span>Ravza-i Mutahhara Ziyareti ve Nusuk Randevusu</span>
+              <span data-i18n="ziyarat.rawdah_title"></span>
             </h2>
-            <p class="text-sm text-muted" style="line-height: 1.6; margin-bottom: 12px;">
-              Peygamber Efendimizin (s.a.v.) kabri ile minberi arasındaki bölge "Cennet Bahçelerinden bir bahçedir". Burayı ziyaret edebilmek için Suudi Arabistan'ın resmi <strong>Nusuk (Eatmarna)</strong> uygulamasından önceden randevu almanız gerekmektedir.
+            <p class="text-sm text-muted" style="line-height: 1.6; margin-bottom: 12px;" data-i18n="ziyarat.rawdah_desc">
             </p>
             <ul style="padding-left: 18px; font-size: 0.85rem; color: var(--color-text-main); margin-bottom: 16px; display: flex; flex-direction: column; gap: 6px;">
-              <li>📌 Nusuk uygulamasını indirip pasaport ve vize numaranızla giriş yapın.</li>
-              <li>📌 "Pray in Rawdah" (Ravza'da Namaz) menüsünden uygun gün ve saat dilimini seçin.</li>
-              <li>📌 Randevu saatinizden 30 dakika önce Mescid-i Nebevi avlusundaki belirtilen kapıda hazır bulunun.</li>
-              <li>📌 Hücre-i Saadet önünden geçerken: <i>"Esselâmü aleyke yâ Resûlallâh"</i> diyerek edeple selam veriniz.</li>
+              <li data-i18n="ziyarat.rawdah_b1"></li>
+              <li data-i18n="ziyarat.rawdah_b2"></li>
+              <li data-i18n="ziyarat.rawdah_b3"></li>
+              <li data-i18n="ziyarat.rawdah_b4"></li>
             </ul>
           </div>
         </div>

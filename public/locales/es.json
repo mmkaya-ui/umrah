@@ -62,7 +62,17 @@
     "tips_title": "Consejos Prácticos para Asegurar tu Ihram",
     "tip_1": "📌 Enrolla el borde superior: Enrolla el borde superior del Izar hacia afuera 2-3 veces como un cinturón.",
     "tip_2": "📌 Usa un cinturón de Ihram: Un cinturón de Ihram con cremallera asegura la tela y guarda tus cosas.",
-    "tip_3": "📌 Regla de Iztiba: Descubre el hombro derecho SOLO durante el Tawaf. Cúbrelo durante la oración y el Sa'y."
+    "tip_3": "📌 Regla de Iztiba: Descubre el hombro derecho SOLO durante el Tawaf. Cúbrelo durante la oración y el Sa'y.",
+    "izar_caption": "1. Colocación de la prenda inferior (Izar) (Clic para agrandar)",
+    "rida_caption": "2. Colocación de la prenda superior (Rida) (Clic para agrandar)",
+    "listen_talbiyah": "🔊 Escuchar recitación de la Talbiyah",
+    "packing_subtitle": "Verifique los artículos esenciales antes de viajar a las Tierras Santas:",
+    "pack_item_1": "⚪ Toalla de Ihram de 2 piezas (Hombres) y sandalias sin costura",
+    "pack_item_2": "⚪ Cinturón de Ihram con bolsillos y riñonera",
+    "pack_item_3": "⚪ Jabón y champú sin perfume y crema rozaduras",
+    "pack_item_4": "⚪ Corán de bolsillo, libro de súplicas y contador",
+    "pack_item_5": "⚪ Medicamentos habituales, pastillas para la garganta",
+    "pack_item_6": "⚪ Pasaporte, copia de visado, teléfono y batería externa"
   },
   "duas": {
     "ihram_niyyah": {
@@ -144,7 +154,8 @@
     "haircut_map": "Ver Barberos en el Mapa",
     "dining_title": "Guía de Restaurantes",
     "dining_desc": "Alrededor de Masjid al-Haram, especialmente en Abraj Al Bait y Jabal Omar, hay áreas de comida limpias y seguras.",
-    "dining_map": "Ver Zonas de Comida en el Mapa"
+    "dining_map": "Ver Zonas de Comida en el Mapa",
+    "ziyarat_card_desc": "Explore los lugares sagrados de La Meca y Medina con contexto histórico."
   },
   "common": {
     "copy": "Copiar",
@@ -180,11 +191,29 @@
     "uhud_desc": "'Uhud nos ama, y nosotros amamos Uhud'. Una estación para recordar el sacrificio de Hamza, la importancia de la obediencia, y para orar por los mártires.",
     "baqi_title": "Jannat al-Baqi",
     "baqi_desc": "El cementerio luminoso donde descansan decenas de miles de compañeros. Un lugar para darse cuenta de la naturaleza fugaz de este mundo y orar por la bendita generación.",
-    "map_button": "Mostrar en el mapa 📍"
+    "map_button": "Mostrar en el mapa 📍",
+    "rawdah_title": "Visita a la Rawdah y Cita en Nusuk",
+    "rawdah_desc": "El área entre la tumba del Profeta (pyb) y su púlpito es 'uno de los Jardines del Paraíso'. Para visitarlo se requiere cita previa mediante la aplicación Nusuk.",
+    "rawdah_b1": "📌 Descargue la app Nusuk e inicie sesión con su pasaporte y visado.",
+    "rawdah_b2": "📌 Seleccione 'Orar en la Rawdah' y elija un horario disponible.",
+    "rawdah_b3": "📌 Llegue a la puerta del patio asignada 30 minutos antes.",
+    "rawdah_b4": "📌 Al pasar, salude con respeto: 'As-salamu 'alayka ya Rasool Allah'."
   },
   "dhikr": {
     "title": "Contador Digital de Dhikr",
-    "short_title": "Dhikr"
+    "short_title": "Dhikr",
+    "select_label": "Seleccionar Dhikr:",
+    "subhanallah_name": "Subhanallah (33)",
+    "alhamdulillah_name": "Alhamdulillah (33)",
+    "allahuakbar_name": "Allahu Akbar (33)",
+    "lailahaillallah_name": "La ilaha illallah",
+    "salavat_name": "Salawat",
+    "custom_name": "Dhikr Personalizado",
+    "subhanallah_meaning": "\"Glorificado sea Allah, libre de toda imperfección.\"",
+    "target_prefix": "Objetivo: ",
+    "tap_button": "TOCAR PARA CONTAR",
+    "reset_button": "Reiniciar",
+    "complete_msg": "🎉 ¡Alhamdulillah! Dhikr completado."
   },
   "packing": {
     "title": "Lista de Equipaje para la Umrah"

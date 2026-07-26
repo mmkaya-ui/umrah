@@ -42,7 +42,7 @@ export const PracticalPage = {
             <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
             <span data-i18n="ziyarat.title"></span>
           </h2>
-          <p class="text-sm text-muted" style="margin-bottom: var(--spacing-4);">Mekke-i Mükerreme ve Medine-i Münevvere'deki kutsal ziyaret yerlerini, tarihi ve ruhani önemleriyle keşfedin.</p>
+          <p class="text-sm text-muted" style="margin-bottom: var(--spacing-4);" data-i18n="practical.ziyarat_card_desc"></p>
           <button class="btn btn-primary" style="width: 100%;" data-link="/umrah/ziyarat">
             <span data-i18n="ziyarat.title"></span>
           </button>
